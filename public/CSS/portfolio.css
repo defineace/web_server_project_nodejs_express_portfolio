@@ -1,0 +1,380 @@
+:root{
+	--page-bg-image: url("../Assets/image - background - 2048x1152.png");
+	--page-bg-color: rgb(20, 20, 20);
+
+	--container-bg-color: rgba(0, 0, 0, 0);
+	--container-border-color: rgba(0, 0, 0, 0.5);
+
+	--album-bg-color: rgb(0, 153, 255);
+	--album-img-bg-color: rgba(95, 95, 95, 0.288);
+	--album-img-border-color: rgba(0, 0, 0, 0.521);
+
+	--presentation-bg-color: rgb(85, 85, 85);
+	--presentation-border-color: rgb(85, 85, 85);
+	
+	--portfolio-bg-color: rgb(85, 85, 85);
+	--portfolio-bg-color: rgb(85, 85, 85);
+	--portfolio-header-font-color: white;
+	--portfolio-img-border-color: rgba(0, 0, 0, 0.9);
+}
+
+body{
+    background-color: var(--page-bg-color);
+    background-size: cover;
+}
+
+/*##########################*/
+
+.container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 70% 20%;
+
+	height: 90%;
+	margin-top: 2%;
+	border: 3px solid var(--container-border-color);
+}
+
+/*##########################*/
+
+.container-album{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    text-align: center;
+    background-color: var(--album-bg-color);
+}
+
+.album-image img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+/*##########################*/
+
+.container-project{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+
+    background-color: var(--portfolio-bg-color);
+}
+.project-header{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 8px;
+    color: var(--portfolio-header-font-color);
+}
+.project-image{
+    text-align: center;
+}
+.project-image img{
+    width: 40%;
+    margin-top: 0px;
+    object-fit: cover;
+}
+.project-image img:hover{
+	border: 3px solid  var(--portfolio-img-border-color);
+}
+
+/*#####################################################################*/
+
+
+
+@media (min-width: 800px){
+	@media (min-height: 400px) {
+        .album-image img{
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 12px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 40%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 500px) {
+        .album-image img{
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 12px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 40%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 600px) {
+        .album-image img{
+            width: 175px;
+            height: 175px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 50%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 700px) {
+        .album-image img{
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 60%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 800px) {
+        .album-image img{
+            width: 225px;
+            height: 225px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 65%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 900px) {
+        .album-image img{
+            width: 250px;
+            height: 250px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 70%;
+			margin-top: 5px;
+		}
+	}
+}
+
+@media (min-width: 1500px){
+	@media (min-height: 400px) {
+        .album-image img{
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 10px;
+            margin-top: 7px;
+		}
+		.project-image img{
+			width: 25%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 500px) {
+        .album-image img{
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 12px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 30%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 600px) {
+        .album-image img{
+            width: 175px;
+            height: 175px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 35%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 700px) {
+        .album-image img{
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 45%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 800px) {
+        .album-image img{
+            width: 225px;
+            height: 225px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 50%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 900px) {
+        .album-image img{
+            width: 250px;
+            height: 250px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 60%;
+			margin-top: 5px;
+		}
+	}
+}
+
+@media (min-width: 2000px){
+	@media (min-height: 400px) {
+        .album-image img{
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 10px;
+            margin-top: 7px;
+		}
+		.project-image img{
+			width: 20%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 500px) {
+        .album-image img{
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 12px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 25%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 600px) {
+        .album-image img{
+            width: 175px;
+            height: 175px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 30%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 700px) {
+        .album-image img{
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 35%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 800px) {
+        .album-image img{
+            width: 225px;
+            height: 225px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 40%;
+			margin-top: 5px;
+		}
+	}
+
+	@media (min-height: 900px) {
+        .album-image img{
+            width: 250px;
+            height: 250px;
+            margin-top: 10px;
+        }
+		.project-header{
+			font-size: 15px;
+            margin-top: 10px;
+		}
+		.project-image img{
+			width: 45%;
+			margin-top: 5px;
+		}
+	}
+}

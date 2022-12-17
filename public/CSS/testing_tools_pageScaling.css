@@ -1,0 +1,447 @@
+@media (min-width: 800px){
+	@media (min-height: 400px){
+		.nav-image img{
+			border: 2px solid red;
+		}
+	}
+	@media (min-height: 500px){
+		.nav-image img{
+			border: 2px solid green;
+		}
+	}
+	@media (min-height: 600px){
+		.nav-image img{
+			border: 2px solid yellow;
+		}
+	}
+	@media (min-height: 700px){
+		.nav-image img{
+			border: 2px solid rgb(4, 247, 255);
+		}
+	}
+	@media (min-height: 800px){
+		.nav-image img{
+			border: 2px solid rgb(255, 104, 4);
+		}
+	}
+	@media (min-height: 900px){
+		.nav-image img{
+			border: 2px solid rgb(255, 4, 213);
+		}
+	}
+}
+
+
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+
+
+
+.album-image img{
+	border: 2px solid rgb(162, 0, 255);
+}
+
+.slideshow-image img{
+	border: 2px solid rgb(162, 0, 255);
+}
+
+.project-image img{
+	border: 2px solid rgb(162, 0, 255);
+}
+
+
+/*###########################################################################################################*/
+/* ALBUM RESIZE */
+/*############################################################################################## width: 800PX*/
+
+
+@media (min-width: 800px){
+	@media (min-height: 400px) {
+		.album-image img{
+			border: 2px solid red;
+		}
+	}
+
+	@media (min-height: 500px) {
+		.album-image img{
+			border: 2px solid green;
+		}
+	}
+
+	@media (min-height: 600px) {
+		.album-image img{
+			border: 2px solid yellow;
+		}
+	}
+
+	@media (min-height: 700px) {
+		.album-image img{
+			border: 2px solid rgb(4, 247, 255);
+		}
+	}
+
+	@media (min-height: 800px) {
+		.album-image img{
+			border: 2px solid rgb(255, 104, 4);
+		}
+	}
+
+	@media (min-height: 900px) {
+		.album-image img{
+			border: 2px solid rgb(255, 4, 213);
+		}
+	}
+}
+
+/*###########################################################################################################*/
+/* SLIDESHOW RESIZE */
+/*############################################################################################## width: 800PX*/
+
+@media (min-width: 800px){
+	@media (min-height: 400px) {
+		.slideshow-image img{
+			border: 2px solid red;
+		}
+	}
+
+	@media (min-height: 500px) {
+		.slideshow-image img{
+			border: 2px solid green;
+		}
+	}
+
+	@media (min-height: 600px) {
+		.slideshow-image img{
+			border: 2px solid yellow;
+		}
+	}
+
+	@media (min-height: 700px) {
+		.slideshow-image img{
+			border: 2px solid rgb(4, 247, 255);
+		}
+	}
+
+	@media (min-height: 800px) {
+		.slideshow-image img{
+			border: 2px solid rgb(255, 104, 4);
+		}
+	}
+
+	@media (min-height: 900px) {
+		.slideshow-image img{
+			border: 2px solid rgb(255, 4, 213);
+		}
+	}
+}
+
+/*###########################################################################################################*/
+/* PROJECT RESIZE */
+/*############################################################################################## width: 800PX*/
+
+
+@media (min-width: 800px){
+	@media (min-height: 400px) {
+		.project-header{
+			font-size: 15px;
+		}
+		.project-image img{
+			border: 2px solid red;
+		}
+	}
+
+	@media (min-height: 500px) {
+		.project-image img{
+			border: 2px solid green;
+		}
+	}
+
+	@media (min-height: 600px) {
+		.project-image img{
+			border: 2px solid yellow;
+		}
+	}
+
+	@media (min-height: 700px) {
+		.project-image img{
+			border: 2px solid rgb(4, 247, 255);
+		}
+	}
+
+	@media (min-height: 800px) {
+		.project-image img{
+			border: 2px solid rgb(255, 104, 4);
+		}
+	}
+
+	@media (min-height: 900px) {
+		.project-image img{
+			border: 2px solid rgb(255, 4, 213);
+		}
+	}
+}
+
+@media (min-width: 1000px){
+	@media (min-height: 400px) {
+		.project-image img{
+			border: 2px solid red;
+		}
+	}
+
+	@media (min-height: 500px) {
+		.project-image img{
+			border: 2px solid green;
+		}
+	}
+
+	@media (min-height: 600px) {
+		.project-image img{
+			border: 2px solid yellow;
+		}
+	}
+
+	@media (min-height: 700px) {
+		.project-image img{
+			border: 2px solid rgb(4, 247, 255);
+		}
+	}
+
+	@media (min-height: 800px) {
+		.project-image img{
+			border: 2px solid rgb(255, 104, 4);
+		}
+	}
+
+	@media (min-height: 900px) {
+		.project-image img{
+			border: 2px solid rgb(255, 4, 213);
+		}
+	}
+}
+
+@media (min-width: 1500px){
+	@media (min-height: 400px) {
+		.project-image img{
+			border: 2px solid red;
+		}
+	}
+
+	@media (min-height: 500px) {
+		.project-image img{
+			border: 2px solid green;
+        }
+	}
+
+	@media (min-height: 600px) {
+		.project-image img{
+			border: 2px solid yellow;
+		}
+	}
+
+	@media (min-height: 700px) {
+		.project-image img{
+			border: 2px solid rgb(4, 247, 255);
+		}
+	}
+
+	@media (min-height: 800px) {
+		.project-image img{
+			border: 2px solid rgb(255, 104, 4);
+		}
+	}
+
+	@media (min-height: 900px) {
+		.project-image img{
+			border: 2px solid rgb(255, 4, 213);
+		}
+	}
+}
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+/* ######################################################################################################################### */
+
+
+.category-label{
+    border: 3px solid rgb(247, 0, 255);
+}
+
+
+/*#########################        WIDTH: 1000PX*/
+@media (min-width: 800px){
+    @media (min-height: 400px){
+        .profile-body{
+            border: 3px solid rgb(255, 0, 0);
+        }
+    }
+    @media (min-height: 500px){
+        .profile-body{
+            border: 3px solid rgb(255, 145, 0);
+        }
+    }
+    @media (min-height: 600px){
+        .profile-body{
+            border: 3px solid rgb(238, 255, 0);
+        }
+    }
+    @media (min-height: 700px){
+        .profile-body{
+            border: 3px solid rgb(43, 255, 0);
+        }
+    }
+    @media (min-height: 800px){
+        .profile-body{
+            border: 3px solid rgb(4, 255, 234);
+        }
+    }
+    @media (min-height: 900px){
+        .profile-body{
+            border: 3px solid rgb(2, 40, 255);
+        }
+    }
+}
+/*#########################        WIDTH: 1500PX*/
+@media (min-width: 1500px){
+    @media (min-height: 400px){
+        .profile-body{
+            border: 3px solid rgb(255, 0, 0);
+        }
+    }
+    @media (min-height: 500px){
+        .profile-body{
+            border: 3px solid rgb(255, 145, 0);
+        }
+    }
+    @media (min-height: 600px){
+        .profile-body{
+            border: 3px solid rgb(238, 255, 0);
+        }
+    }
+    @media (min-height: 700px){
+        .profile-body{
+            border: 3px solid rgb(43, 255, 0);
+        }
+    }
+    @media (min-height: 800px){
+        .profile-body{
+            border: 3px solid rgb(4, 255, 234);
+        }
+    }
+    @media (min-height: 900px){
+        .profile-body{
+            border: 3px solid rgb(2, 40, 255);
+        }
+    }
+}
+
+/*#######################################################################################*/
+
+/*#########################        WIDTH: 1000PX*/
+@media (min-width: 800px){
+    @media (min-height: 400px){
+        .category-label{
+            border: 3px solid rgb(255, 0, 0);
+        }
+    }
+    @media (min-height: 500px){
+        .category-label{
+            border: 3px solid rgb(255, 145, 0);
+        }
+    }
+    @media (min-height: 600px){
+        .category-label{
+            border: 3px solid rgb(238, 255, 0);
+        }
+    }
+    @media (min-height: 700px){
+        .category-label{
+            border: 3px solid rgb(43, 255, 0);
+        }
+    }
+    @media (min-height: 800px){
+        .category-label{
+            border: 3px solid rgb(4, 255, 234);
+        }
+    }
+    @media (min-height: 900px){
+        .category-label{
+            border: 3px solid rgb(2, 40, 255);
+        }
+    }
+}
+/*#########################        WIDTH: 1500PX*/
+@media (min-width: 1500px){
+    @media (min-height: 400px){
+        .category-label{
+            border: 3px solid rgb(255, 0, 0);
+        }
+    }
+    @media (min-height: 500px){
+        .category-label{
+            border: 3px solid rgb(255, 145, 0);
+        }
+    }
+    @media (min-height: 600px){
+        .category-label{
+            border: 3px solid rgb(238, 255, 0);
+        }
+    }
+    @media (min-height: 700px){
+        .category-label{
+            border: 3px solid rgb(43, 255, 0);
+        }
+    }
+    @media (min-height: 800px){
+        .category-label{
+            border: 3px solid rgb(4, 255, 234);
+        }
+    }
+    @media (min-height: 900px){
+        .category-label{
+            border: 3px solid rgb(2, 40, 255);
+        }
+    }
+}
+/*#########################        WIDTH: 2000PX*/
+@media (min-width: 2000px){
+    @media (min-height: 400px){
+        .category-label{
+            border: 3px solid rgb(255, 0, 0);
+        }
+    }
+    @media (min-height: 500px){
+        .category-label{
+            border: 3px solid rgb(255, 145, 0);
+        }
+    }
+    @media (min-height: 600px){
+        .category-label{
+            border: 3px solid rgb(238, 255, 0);
+        }
+    }
+    @media (min-height: 700px){
+        .category-label{
+            border: 3px solid rgb(43, 255, 0);
+        }
+    }
+    @media (min-height: 800px){
+        .category-label{
+            border: 3px solid rgb(4, 255, 234);
+        }
+    }
+    @media (min-height: 900px){
+        .category-label{
+            border: 3px solid rgb(2, 40, 255);
+        }
+    }
+}

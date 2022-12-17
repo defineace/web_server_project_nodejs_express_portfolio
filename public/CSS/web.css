@@ -1,0 +1,244 @@
+
+body{
+	background-image: url("../Assets/image - background - 2048x1152.png");
+	background-size: cover;
+}
+
+/*##################################################*/
+
+.container{
+	margin-top: 2%;
+
+	color: white;
+}
+
+/*#############################################################################*/
+
+.SIGNIN{
+	background-color: rgb(182, 139, 23);
+}
+.browser{
+	width: 650px;
+	height: 350px;
+	margin: 10px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 10px;
+
+}
+.browser-nav{
+	display: grid;
+	grid-template-columns: auto auto;
+
+	height: 35px;
+	background-color: rgb(78, 78, 78);
+}
+.browser-addressBar{
+	position: relative;
+	top: 25%;
+	left: 50%;
+
+	width: 300px;
+	height: 15px;
+}
+
+.browser-options{
+	position: relative;
+	left: 60%;
+	top: 25%;
+
+	display: grid;
+	grid-template-columns: repeat(3,15%);
+}
+.browser-options-green{
+	width: 15px;
+	height: 15px;
+	background-color: green;
+	border:  1px solid black;
+	border-radius: 25px;
+}
+.browser-options-yellow{
+	width: 15px;
+	height: 15px;
+
+	background-color: yellow;
+	border:  1px solid black;
+	border-radius: 25px;
+}
+.browser-options-red{
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	border:  1px solid black;
+	border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signIn-v1{
+
+	width: 250px;
+	height: 250px;
+	margin-top: 20px;
+	background-color: rgb(155, 155, 155);
+	border: 3px solid black;
+	border-radius: 15px;
+
+	text-align: center;
+}
+.signIn-v1-form form{
+	display: grid;
+	grid-template-columns: auto;
+}
+.signIn-v1-form input{
+	width: 150px;
+	height: 20px;
+}
+.signIn-v1-form button{
+	width: 80px;
+	height: 30px;
+	background-color: rgba(169, 169, 169, 0.37);
+	border: 3px solid black;
+	border-radius: 25px;
+
+	color: white;
+}
+.signIn-v1-form button:hover{
+	background-color: rgba(255, 255, 255, 0.589);
+
+	color: rgb(78, 78, 78);
+}
+.signIn-v1-links a{
+	font-size: 10px;
+}
+
+/*####################################*/
+
+.signIn-v2{
+	display: grid;
+	grid-template-columns: 50%  30% 10% 10%;
+
+	height: 30px;
+	background-color: rgb(155, 155, 155);
+	border-bottom: 1px solid black;
+}
+
+.signIn-v2-form form{
+	font-size: 10px;
+}
+.signIn-v2-form input{
+	width: 45px;
+}
+.signIn-v2-form button{
+	width: 25px;
+	height: 25px;
+	background-color: rgba(76, 136, 52, 0.37);
+	border: 1px solid  black;
+	border-radius: 25px;
+}
+.signIn-v2-links a{
+	font-size: 10px;
+}
+
+/*#############################################################################*/
+
+
+
+
+.STORE{
+	margin-top: 100px;
+	background-color: rgb(72, 114, 177);
+}
+
+.store-nav{
+	background-color: rgb(175, 175, 175);
+
+	color: rgb(0, 0, 0);
+	border:3px solid black;
+	display: grid;
+	grid-template-columns: 4% auto;
+}
+.store-nav-menu-icon{
+	border: 3px solid black;
+	background-color: rgb(80, 80, 80);
+	border-radius: 25px;
+	width:40px;height:40px;	
+}
+
+.store-nav-menu-layer-1{
+	position:absolute;
+	left: 1%;
+	top: 113%;
+	width: 300px;
+	height: 300px;
+	border:1px solid black;
+	background-color:green;	
+}
+
+.store-catalog{
+	border:3px solid black;	
+}
+
+.catalog-item{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+
+	border-bottom: 1px solid black;
+}
+.catalog-item img{
+	width: 150px;
+	height: 150px;
+}
+
+
+.store-cart{
+	position: absolute;
+	left: 80%;
+	top: 113%;
+
+	width: 450px;
+	height: 800px;
+	background-color: green;
+	border: 1px solid black;
+}
+.cart-item{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+
+	border-bottom: 1px solid black;
+}
+.cart-item img{
+	width: 75px;
+	height: 75px;
+}
+.cart-item-body{
+	font-size: 15px;
+}
+.cart-item input{
+	width: 80px;
+	height: 20px;
+}
+.cart-item-remove button{
+	width: 35px;
+	height: 35px;
+	padding: 0;
+	border-radius: 25px;
+
+	font-size: 25px;
+}
+
+.cart-checkout button{
+	width: 100px;
+	height: 40px;
+}

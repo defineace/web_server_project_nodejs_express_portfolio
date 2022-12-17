@@ -1,0 +1,57 @@
+
+
+body{
+    background-image: url("../Assets/image - background - 2048x1152.png");
+    background-size: cover;
+}
+
+/*##################################################*/
+
+.container{
+	display: grid;
+	grid-template-columns: auto;
+
+	margin-top: 2%;
+}
+
+/*##################################################*/
+
+.container-album{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+
+    text-align: center;
+    background-color: rgba(64, 141, 64, 0.9);
+}
+.album-image img{
+    margin-top: 25px;
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+}
+
+/*##################################################*/
+
+.container-project{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+
+    background-color: rgba(85, 85, 85, 0.9);
+}
+.project-header{
+    text-align: center;
+    color: white;
+}
+.project-image{
+    text-align: center;
+}
+.project-image img{
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+}
+.project-image img:hover{
+	border: 3px solid  rgba(0, 255, 0, 0.9);
+}
