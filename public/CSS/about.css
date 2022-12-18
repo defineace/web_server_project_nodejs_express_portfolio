@@ -74,6 +74,7 @@ body{
     font-size: 9px;
 }
 .category-image{
+    margin-top: 50px;
     text-align: center;
 }
 .category-image img{
@@ -83,9 +84,11 @@ body{
 }
 .category-header{
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
 }
 .category-label{
+    margin-top: 10px;
+    text-align: center;
     font-size:  8px;
 }
 
@@ -203,13 +206,13 @@ body{
     }
     @media (min-height: 800px){
         .profile-name{
-            font-size: 16px;
+            font-size: 20px;
         }
         .profile-body{
             font-size: 16px;
         }
         .profile-table-header{
-            font-size: 16px;
+            font-size: 20px;
         }
         .profile-table table{
             font-size: 16px;
@@ -217,13 +220,13 @@ body{
     }
     @media (min-height: 900px){
         .profile-name{
-            font-size: 16px;
+            font-size: 25px;
         }
         .profile-body{
             font-size: 18px;
         }
         .profile-table-header{
-            font-size: 16px;
+            font-size: 25px;
         }
         .profile-table table{
             font-size: 16px;
