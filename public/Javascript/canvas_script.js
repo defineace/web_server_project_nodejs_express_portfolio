@@ -6,7 +6,7 @@ var ctx = c.getContext("2d");
 c.width = goo.offsetWidth-3;
 c.height = 200;
 
-const asset_path = '../Assets/Future City/';
+const asset_path = '../Assets/img_futureCity/';
 
 const animations_player = [
 	asset_path + 'sprite soilder idle-armsDown.png',
