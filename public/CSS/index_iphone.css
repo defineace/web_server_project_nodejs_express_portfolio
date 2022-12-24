@@ -1,16 +1,25 @@
-
 :root{
-	--album-bg: rgba(64, 141, 64, 0.3);
-	--album-img-bg: rgba(64, 141, 64, 0.5);
-	--album-img-border: rgba(0, 255, 0, 0.9);
-	--presentation-bg: rgba(209, 209, 209, 0.7);
-	--portfolio-bg: rgba(110, 110, 110, 0.7);
-	--portfolio-img-border: rgba(0, 255, 0, 0.9);
+	--page-bg-image: url("../Assets/image - background - 2048x1152.png");
+	--page-bg-color: rgb(20, 20, 20);
+
+	--container-bg-color: rgba(0, 0, 0, 0);
+	--container-border-color: rgba(0, 0, 0, 0.5);
+
+	--album-bg-color: rgb(0, 153, 255);
+	--album-img-bg-color: rgba(95, 95, 95, 0.288);
+	--album-img-border-color: rgba(0, 0, 0, 0.521);
+
+	--presentation-bg-color: rgb(85, 85, 85);
+	--presentation-border-color: rgb(85, 85, 85);
+	
+	--portfolio-bg-color: rgb(85, 85, 85);
+	--portfolio-border-color: rgb(85, 85, 85);
+	--portfolio-img-border-color: rgba(0, 0, 0, 0.9);
 }
 
 
 body{
-	background-image: url("../Assets/image - background - 2048x1152.png");
+	background-color: var(--page-bg-color);
 	background-size: cover;
 }
 
@@ -28,11 +37,11 @@ body{
 
 	margin-top: 50px;
 	text-align: center;
-	background-color: var(--album-bg);
+	background-color: var(--album-bg-color);
 }
 .album-image:nth-child(3){
-	background-color: var(--album-img-bg);
-	border: 3px solid  var(--album-img-border);
+	background-color: var(--album-img-bg-color);
+	border: 3px solid  var(--album-img-border-color);
 }
 .album-image img{
 	width: 100px;
@@ -48,7 +57,7 @@ body{
 	grid-template-columns: 100%;
 
     margin-top: 50px;
-	background-color: var(--presentation-bg);
+	background-color: var(--presentation-bg-color);
 }
 .slideshow-image{
 	text-align: center;
@@ -67,7 +76,7 @@ body{
 	grid-template-columns: auto;
 
     margin-top: 50px;
-	background-color: var(--portfolio-bg);
+	background-color: var(--portfolio-bg-color);
 }
 .project-header{
 	text-align: center;
@@ -82,5 +91,5 @@ body{
 	object-fit: cover;
 }
 .portfolio-image img:hover{
-	border: 3px solid var(--portfolio-img-border);
+	border: 3px solid var(--portfolio-img-border-color);
 }

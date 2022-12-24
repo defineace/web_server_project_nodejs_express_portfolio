@@ -1,5 +1,21 @@
+:root{
+    --page-bg-image: url("../Assets/image - background - 2048x1152.png");
+	--page-bg-color: rgb(20, 20, 20);
+
+    --container-bg-color: rgba(0, 0, 0, 0);
+    --container-border-color: rgba(0, 0, 0, 0.5);
+    --container-font-color: white;
+
+    --profile-bg-color: rgba(110, 110, 110, 0.95);
+    --profile-border-color: rgba(0, 0, 0, 0);
+    --profile-table-font-color: white;
+
+    --category-bg-color: rgb(0, 153, 255);
+    --categort-border-color: rgba(0, 0, 0, 0);
+}
+
 body{
-    background-image: url("../Assets/image - background - 2048x1152.png");
+    background-color: var(--page-bg-color);
     background-size: cover;
 }
 
@@ -10,15 +26,15 @@ body{
 	grid-template-columns: auto;
 
 	margin-top: 2%;
-	border: 3px solid rgba(0, 0, 0, 0.5);
-    color: white;
+	border: 3px solid var(--container-border-color);
+    color: var(--container-font-color);
 }
 
 /*##################################################*/
 
 .container-profile{
     color: white;
-    background-color: rgba(110, 110, 110, 0.95);
+    background-color: var(--profile-bg-color);
     display: grid;
     grid-template-columns: auto;
 }
@@ -45,7 +61,7 @@ body{
     font-size: 50px;
 }
 .profile-table table{
-    color: white;
+    color: var(--profile-table-font-color);
     font-size: 30px;
 }
 
@@ -54,10 +70,10 @@ body{
 .container-category{
 	display: grid;
 	grid-template-columns: auto;
-    background-color: rgba(64, 141, 64, 0.95);
+    background-color: var(--category-bg-color);
 }
 .category{
-    border-left: 1px solid black;
+    border-left: 1px solid var(--category-bg-color);
 }
 .category ul{
     list-style-type: none;
@@ -71,9 +87,10 @@ body{
     margin: 5px;
 }
 .category-header{
+    font-size: 45px;
     text-align: center;
 }
 .category-label{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
