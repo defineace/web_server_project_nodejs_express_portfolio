@@ -12,27 +12,24 @@ data_skills = [
 ];
 
 data_hardware = [
-    ['Install PC/Server Devices',10],
-    ['Install PC/Server Components',10],
-    ['Troubleshoot PC/Server Components',7],
-    ['Install Network Devices',10],
-    ['Install Network Components',10],
-    ['Troubleshoot Network Components',8],
-    ['Data Infrastructure',10],
-    ['Voice Infrastructure',10],
+    ['Laptops and Desktops',10],
+    ['Servers',10],
+    ['Network Router and Switches',7],
+    ['Data Network Infrastructure',10],
     ['Security Camera Infrastructure',9],
     ['Security Alarm Infrastructure',7],
     ['Audio System Infrastructure',8]
-
 ];
 
 data_programmingLanguage = [
     ['HTML',8],
     ['CSS',7],
     ['JS',7],
+    ['React',7],
+    ['SASS',5],
+    ['Nodejs',5],
     ['MySQL',6],
     ['PHP',5],
-    ['Node JS',5],
     ['Python',7],
     ['Visual Basic',7],
     ['C++',5],
@@ -43,16 +40,12 @@ data_programmingLanguage = [
 data_software = [
     ['Microsoft Windows OS',9],
     ['Apple OS/IOS',9],
-    ['Ubuntu Linux OS',8],
+    ['Linux OS',8],
     ['Android OS',8],
-    ['Word, Excel, Powerpoint',9],
+    ['git',7],
     ['Blender',8],
     ['GIMP Photo Editor',7],
-    ['Krita',7],
-    ['OBS Studio',8],
-    ['Davinci Resolve',4],
-    ['FL Studio',7],
-	['Unity',4]
+    ['Krita',7]
 ];
 
 function category(data_array,list_id){

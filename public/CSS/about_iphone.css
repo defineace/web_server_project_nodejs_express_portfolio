@@ -6,13 +6,23 @@
     --container-border-color: rgba(0, 0, 0, 0.5);
     --container-font-color: white;
 
+    --profile-font-color: white;
     --profile-bg-color: rgba(110, 110, 110, 0.95);
     --profile-border-color: rgba(0, 0, 0, 0);
     --profile-table-font-color: white;
 
+    --profile-name-font: "Salsa", serif;
+    --profile-body-font: "MuseoModerno", serif;
+    --profile-tableHeader-font: "Salsa", serif;
+    --profile-table-font: "Julius Sans One", serif;
+
     --category-bg-color: rgb(0, 153, 255);
-    --categort-border-color: rgba(0, 0, 0, 0);
+    --category-border-color: rgba(0, 0, 0, 0);
+
+    --category-header-font: "Salsa", serif;
+    --caterory-label-font: "Julius Sans One", serif;
 }
+
 
 body{
     background-color: var(--page-bg-color);
@@ -33,35 +43,47 @@ body{
 /*##################################################*/
 
 .container-profile{
-    color: white;
-    background-color: var(--profile-bg-color);
     display: grid;
     grid-template-columns: auto;
+
+    margin-top: 50px;
+
+    color: var(--profile-font-color);
+    background-color: var(--profile-bg-color);
 }
 .profile-image{
     text-align: center;
 }
 .profile-image img{
+    margin: 5px;
     width: 200px;
     height: 200px;
-    margin: 5px;
+
     border: 3px solid rgb(0, 0, 0);
     border-radius: 50%;
 }
-.profile-name{
+.profile-name h2{
     text-align: center;
+    
+    font-family: var(--profile-name-font);
     font-size: 50px;
 }
 .profile-body{
     text-align: center;
+
+    font-family: var(--profile-body-font);
     font-size: 40px;
 }
 .profile-table-header{
     text-align: center;
+
+    font-family: var(--profile-tableHeader-font);
     font-size: 50px;
 }
 .profile-table table{
     color: var(--profile-table-font-color);
+
+    font-family: var(--profile-table-font);
     font-size: 30px;
 }
 
@@ -70,27 +92,32 @@ body{
 .container-category{
 	display: grid;
 	grid-template-columns: auto;
+
+    margin-top: 50px;
     background-color: var(--category-bg-color);
 }
 .category{
     border-left: 1px solid var(--category-bg-color);
 }
-.category ul{
-    list-style-type: none;
-}
 .category-image{
+    margin-top: 100px;
     text-align: center;
 }
 .category-image img{
-    width: 500px;
-    height: 400px;
     margin: 5px;
+    width: 800px;
+    height: 500px;
 }
 .category-header{
-    font-size: 45px;
     text-align: center;
+
+    font-family: var(--category-header-font);
+    font-size: 80px;
 }
-.category-label{
+.category-label {
+    margin-top: 10px;
     text-align: center;
-    font-size: 40px;
+
+    font-family: var(--caterory-label-font);
+    font-size: 65px;
 }
