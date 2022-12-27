@@ -1,0 +1,29 @@
+:root{
+	--page-bg-color: #333232;
+
+    --container-bg-color: #00000000;
+    --container-border-color: #00000080;
+
+    --profile-bg-color: #5f5f5f49;
+    --profile-table-font-color: white;
+
+    --profile-name-font: "Salsa", serif;
+    --profile-name-font-color: white;
+
+    --profile-body-font: "MuseoModerno", serif;
+    --profile-body-font-color: white;
+
+    --profile-table-title-font: "Salsa", serif;
+    --profile-table-title-font-color: white;
+
+    --profile-table-font: "Julius Sans One", serif;
+    --profile-table-font-color: white;
+
+    --categories-bg-color: #39A9DB;
+    
+    --category-title-font: "Salsa", serif;
+    --category-title-font-color: white;
+
+    --caterory-item-label-font: "Julius Sans One", serif;
+    --category-item-label-font-color: white;
+}

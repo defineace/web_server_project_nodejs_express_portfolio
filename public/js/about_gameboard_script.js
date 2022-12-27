@@ -1,6 +1,6 @@
 
 var goo = document.getElementById("goo");
-var c = document.getElementById("_gameboard");
+var c = document.getElementById("gameboard");
 var ctx = c.getContext("2d");
 
 c.width = goo.offsetWidth-3;

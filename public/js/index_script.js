@@ -1,25 +1,34 @@
-var x = 2;
-var y = document.getElementById("album").children;
+const album = document.getElementById("album").children;
+var index = 2;
 
 setInterval(()=>{
-    if(x <= y.length-1){
-        if(x!=0){
-            y[x-1].style.border = "none";
-            y[x-1].style.backgroundColor = "transparent";
-            y[y.length-1].style.opacity = "";
+    if(index <= album.length-1){
+        if(index!=0){
+            album[index-1].children[0].style['box-shadow'] = "0px 5px 5px 1.5px black";
+            album[index].children[0].style.transition ="transform 500ms, box-shadow 500ms";
+            
+            album[index-1].style.border = "none";
+            album[index-1].style.backgroundColor = "transparent";
+            album[album.length-1].style.opacity = "";
             
         }else{
-            y[y.length-1].style.border = "none";
-            y[y.length-1].style.backgroundColor = "transparent";
-            y[y.length-1].style.opacity = "";
+            album[album.length-1].children[0].style['box-shadow'] = "0px 5px 5px 1.5px black";
+            album[index].children[0].style.transition ="transform 500ms, box-shadow 500ms";
+
+            album[album.length-1].style.border = "none";
+            album[album.length-1].style.backgroundColor = "transparent";
+            album[album.length-1].style.opacity = "";
         }
 
-        y[x].style.border = "3px solid rgba(0, 0, 0, 0.521)";
-        y[x].style.backgroundColor = "rgba(95, 95, 95, 0.288)";
+        album[index].style.border = "3px solid rgba(0, 0, 0, 0.521)";
+        album[index].style.backgroundColor = "rgba(95, 95, 95, 0.288)";
 
-        document.getElementById("slideshow").src = y[x].getElementsByTagName("img")[0].src;
-        x += 1;
+        album[index].children[0].style['box-shadow'] = "0px 5px 25px 1.5px black";
+        album[index].children[0].style.transition ="transform 500ms, box-shadow 500ms";
+
+        document.getElementById("slideshow").src = album[index].getElementsByTagName("img")[0].src;
+        index += 1;
     }else{
-        x = 0;
+        index = 0;
     }
-},3000);
+},5000);

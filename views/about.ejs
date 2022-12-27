@@ -4,99 +4,101 @@
 		<div class="container">
 			<%- include("./partials/nav.ejs") %>
 
-            <div class="container-profile" id="goo">
-				<div>
-					<canvas id="_gameboard"></canvas>
-					<script src="../js/canvas_script.js"></script>
+			<div class="content">
+				<div class="profile" id="goo">
+					<div class="profile-gameboard">
+						<canvas id="gameboard"></canvas>
+						<script src="../js/about_gameboard_script.js"></script>
+					</div>
+					<div class="profile-name">Leandro Rico</div>
+					<div class="profile-body">
+						<p>Creating &#x2022; Learning &#x2022; Solving problems &#x2022; Working hard</p>
+						<p>
+							With many years of IT expierence
+							<br>Leading projects at large scale datacenters, meeting pressured deadlines, and working in high security environments.
+							<br>My new career goals is strive for software development.
+						</p>
+					</div>
+					<div class="profile-table-title">Experience</div>
+					<div class="profile-table">
+						<table>
+							<tr>
+								<th>Company</th>
+								<th>Job Type</th>
+								<th>Date</th>
+								<th>Job Title</th>
+								<th>Job Description</th>
+							</tr>
+							<tr>
+								<td>Cabling Solutions</td>
+								<td>Full Time Employee</td>
+								<td style="white-space: nowrap;">August, 2021 - April, 2022</td>
+								<td>Low Voltage Technician</td>
+								<td>Structured Cabling, Video, Alarm</td>
+							</tr>
+							<tr>
+								<td>Apple</td>
+								<td>Full Time Employee</td>
+								<td style="white-space: nowrap;">December, 2019 - April, 2021</td>
+								<td>Apple Data Center Site Services Lead</td>
+								<td>Data Center Site Services,Front End Developement Prototyping</td>
+							</tr>
+							<tr>
+								<td>Elite Cable Systems</td>
+								<td>Full Time Employee</td>
+								<td style="white-space: nowrap;">December, 2018 – November, 2019</td>
+								<td>Apple Data Center Site Services and Low Voltage Technician</td>
+								<td>Data Center Site Services and Structured Cabling</td>
+							</tr>
+							<tr>
+								<td>TekSystems</td>
+								<td>Full Time Employee</td>
+								<td style="white-space: nowrap;">March, 2016 - November, 2017</td>
+								<td>Apple Data Center Site Services Lead</td>
+								<td>Data Center Site Services, Software Prototyping</td>
+							</tr>
+							<tr>
+								<td>Great Basin Communications</td>
+								<td>Part Time Contractor</td>
+								<td style="white-space: nowrap;">2014 - 2015</td>
+								<td>Low Voltage Technician</td>
+								<td>Structured Cabling</td>
+							</tr>
+							<tr>
+								<td>Crexendo</td>
+								<td>Part Time Contractor</td>
+								<td style="white-space: nowrap;">2014</td>
+								<td>Low Voltage Technician</td>
+								<td>Structured Cabling and Onsite Troubleshoot</td>
+							</tr>
+						</table>
+					</div>
 				</div>
-				<div class="profile-name"><h2>Leandro Rico</h2></div>
-				<div class="profile-body">
-					<p>Creating &#x2022; Learning &#x2022; Solving problems &#x2022; Working hard</p>
-					<p>
-						With many years of IT expierence
-						<br>Leading projects at large scale datacenters, meeting pressured deadlines, and working in high security environments.
-						<br>My new career goals is strive for software development.
-					</p>
-				</div>
-				<div class="profile-table-header"><h3>Experience</h3></div>
-				<div class="profile-table">
-					<table>
-						<tr>
-							<th>Company</th>
-							<th>Job Type</th>
-							<th>Date</th>
-							<th>Job Title</th>
-							<th>Job Description</th>
-						</tr>
-						<tr>
-							<td>Cabling Solutions</td>
-							<td>Full Time Employee</td>
-							<td style="white-space: nowrap;">August, 2021 - April, 2022</td>
-							<td>Low Voltage Technician</td>
-							<td>Structured Cabling, Video, Alarm</td>
-						</tr>
-						<tr>
-							<td>Apple</td>
-							<td>Full Time Employee</td>
-							<td style="white-space: nowrap;">December, 2019 - April, 2021</td>
-							<td>Apple Data Center Site Services Lead</td>
-							<td>Data Center Site Services,Front End Developement Prototyping</td>
-						</tr>
-						<tr>
-							<td>Elite Cable Systems</td>
-							<td>Full Time Employee</td>
-							<td style="white-space: nowrap;">December, 2018 – November, 2019</td>
-							<td>Apple Data Center Site Services and Low Voltage Technician</td>
-							<td>Data Center Site Services and Structured Cabling</td>
-						</tr>
-						<tr>
-							<td>TekSystems</td>
-							<td>Full Time Employee</td>
-							<td style="white-space: nowrap;">March, 2016 - November, 2017</td>
-							<td>Apple Data Center Site Services Lead</td>
-							<td>Data Center Site Services, Software Prototyping</td>
-						</tr>
-						<tr>
-							<td>Great Basin Communications</td>
-							<td>Part Time Contractor</td>
-							<td style="white-space: nowrap;">2014 - 2015</td>
-							<td>Low Voltage Technician</td>
-							<td>Structured Cabling</td>
-						</tr>
-						<tr>
-							<td>Crexendo</td>
-							<td>Part Time Contractor</td>
-							<td style="white-space: nowrap;">2014</td>
-							<td>Low Voltage Technician</td>
-							<td>Structured Cabling and Onsite Troubleshoot</td>
-						</tr>
-					</table>
-				</div>
-			</div>
 
-            <div class="container-category">
-				<div class='category'>
-					<div class="category-image"><img src='../assets/img_about/image -  b_roll - skills 1.png' alt=""></div>
-					<div class="category-header"><h2>Skills</h2></div>
-					<div class="category-list" id="section_1"></div>
-				</div>
-				<div class='category'>
-					<div class="category-image"><img src='../assets/img_about/image -  b_roll - it cable 1.png' alt=""></div>
-					<div class="category-header"><h2>Hardware</h2></div>
-					<div class="category-list" id="section_2"></div>
-				</div>
-				<div class='category'>
-					<div class="category-image"><img src='../assets/img_about/image -  b_roll - scripting - 1.png' alt=""></div>
-					<div class="category-header"><h2>Scripting Languages</h2></div>
-					<div class="category-list" id="section_3"></div>
-				</div>
-				<div class='category'>
-					<div class="category-image"><img src='../assets/img_about/image -  b_roll - software 1.png' alt=""></div>
-					<div class="category-header"><h2>Software</h2></div>
-					<div class="category-list" id="section_4"></div>
+				<div class="categories">
+					<div class='category'>
+						<div class="category-image"><img src='../assets/img_about/image -  b_roll - skills 1.png' alt=""></div>
+						<div class="category-title"><h2>Skills</h2></div>
+						<div class="category-list" id="section_1"></div>
+					</div>
+					<div class='category'>
+						<div class="category-image"><img src='../assets/img_about/image -  b_roll - it cable 1.png' alt=""></div>
+						<div class="category-title"><h2>Hardware</h2></div>
+						<div class="category-list" id="section_2"></div>
+					</div>
+					<div class='category'>
+						<div class="category-image"><img src='../assets/img_about/image -  b_roll - scripting - 1.png' alt=""></div>
+						<div class="category-title"><h2>Scripting Languages</h2></div>
+						<div class="category-list" id="section_3"></div>
+					</div>
+					<div class='category'>
+						<div class="category-image"><img src='../assets/img_about/image -  b_roll - software 1.png' alt=""></div>
+						<div class="category-title"><h2>Software</h2></div>
+						<div class="category-list" id="section_4"></div>
+					</div>
 				</div>
 			</div>
-        </div>
-		<script src="./js/about_script.js"></script>
+			<script src="./js/about_script.js"></script>
+		</div>
     </body>
 </html>
