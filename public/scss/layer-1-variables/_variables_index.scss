@@ -1,0 +1,59 @@
+@use 'sass:math';
+@import '../layer-0-functions/functions_mediaQueries';
+
+$album_img: (
+	"xs":100px,
+	"sm":75px,
+	"md":100px,
+	"lg":105px,
+	"xl":115px,
+	"xxl":150px
+);
+
+$slideshow_img: (
+	"xs":800px,
+	"sm":250px,
+	"md":325px,
+	"lg":350px,
+	"xl":400px,
+	"xxl":500px
+);
+
+$projects_img: (
+	"xs":800px,
+	"sm":125px,
+	"md":200px,
+	"lg":225px,
+	"xl":250px,
+	"xxl":325px
+);
+
+$breakpoints: (
+    "xs": 0px,
+    "sm": 1000px,
+    "md": 1280px,
+    "lg": 1536px,
+    "xl": 1920px,
+    "xxl": 2100px,
+);
+
+
+$page_bg_color: #333232;
+
+$container_bg_color: #00000000;
+$container_border_color: #00000080;
+
+$album_bg_color: #39A9DB;
+$album_img_bg_color: #5f5f5f49;
+$album_img_border_color: #00000085;
+
+$content_bg_color: #555555;
+
+$album_img_width: map-get($album_img, /**/ "xxl" /**/);
+$album_img_height: map-get($album_img, /**/ "xxl" /**/);
+
+$slideshow_img_width: map_get($slideshow_img, /**/ "xxl" /**/);
+$slideshow_img_height: map-get($slideshow_img, /**/ "xxl" /**/);
+
+$projects_img_width: map-get($projects_img, /**/ "xxl" /**/);
+$projects_img_height: math.div( map-get($projects_img, /**/ "xxl" /**/), 1.75 );

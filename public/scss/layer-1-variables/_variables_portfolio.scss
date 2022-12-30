@@ -1,0 +1,46 @@
+@use 'sass:math';
+@import '../layer-0-functions/functions_mediaQueries';
+
+
+$album_img: (
+	"xs":150px,
+	"sm":175px,
+	"md":215px,
+	"lg":225px,
+	"xl":275px,
+	"xxl":275px
+);
+
+$projects_img: (
+	"xs":75px,
+	"sm":100px,
+	"md":125px,
+	"lg":150px,
+	"xl":185px,
+	"xxl":200px
+);
+
+$breakpoints: (
+    "xs": 0px,
+    "sm": 1000px,
+    "md": 1280px,
+    "lg": 1536px,
+    "xl": 1920px,
+    "xxl": 2100px,
+);
+
+
+$page-bg-color: #333232;
+
+$container-bg-color: #00000000;
+$container-border-color: #00000080;
+
+$album-bg-color: #5f5f5f49;
+
+$project-bg-color: #39A9DB;
+
+$album_img_width: map-get($album_img, /**/ "xxl" /**/);
+$album_img_height: map-get($album_img, /**/ "xxl" /**/);
+
+$projects_img_width: map-get($projects_img, /**/ "xxl" /**/);
+$projects_img_height: math.div( map-get($projects_img, /**/ "xxl" /**/), 1.75 );

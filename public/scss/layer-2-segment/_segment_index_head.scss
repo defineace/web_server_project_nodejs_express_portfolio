@@ -1,0 +1,21 @@
+body{
+	background-color: $page-bg-color;
+}
+
+.container{
+	display: grid;
+	grid-template-rows: 10% 90%;
+
+	margin-top: 2%;
+	height: 90%;
+
+	background-color: $container-bg-color;
+	border: 3px solid $container-border-color;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	background-color: $content-bg-color;
+}

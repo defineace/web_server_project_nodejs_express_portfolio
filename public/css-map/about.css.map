@@ -1,0 +1,145 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #FAA916;
+}
+
+.nav-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 1em;
+  width: 325px;
+}
+
+.nav-main-logo {
+  margin-top: -0.25em;
+  margin-left: 5px;
+}
+.nav-main-logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.nav-main-title {
+  margin-left: 25px;
+  margin-top: 1em;
+  font-family: "Kalam", serif;
+  color: black;
+  font-size: 18px;
+}
+
+.nav-main-links {
+  margin-left: 25px;
+  margin-top: 0.05em;
+}
+.nav-main-links a {
+  font-family: "Kalam", serif;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+.nav-main-links a:hover {
+  color: #31d3e9;
+}
+
+.nav-socialMedia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 70%;
+  margin-top: 0.75em;
+  width: 150px;
+}
+
+.nav-socialMedia-image {
+  margin-top: 0.25em;
+}
+.nav-socialMedia-image img {
+  width: 45px;
+  height: 45px;
+}
+
+body {
+  background-color: #333232;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  margin-top: 2%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid rgba(0, 0, 0, 0.5019607843);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #39A9DB;
+}
+
+.profile {
+  background-color: rgba(95, 95, 95, 0.2862745098);
+}
+
+.profile-image {
+  text-align: center;
+}
+
+.profile-name {
+  text-align: center;
+  font-family: "Salsa", serif;
+  color: white;
+  font-size: 18px;
+}
+
+.profile-body {
+  text-align: center;
+  font-family: "MuseoModerno", serif;
+  color: white;
+  font-size: 16px;
+}
+
+.profile-table-title {
+  text-align: center;
+  font-family: "Salsa", serif;
+  color: white;
+  font-size: 18px;
+}
+
+.profile-table table {
+  font-family: "Julius Sans One", serif;
+  color: white;
+  font-size: 14px;
+}
+
+.category {
+  margin: 2em;
+}
+
+.category-image {
+  text-align: center;
+}
+.category-image img {
+  width: 175px;
+  height: 100px;
+}
+
+.category-title {
+  text-align: center;
+  font-family: "Salsa", serif;
+  color: white;
+  font-size: 14px;
+}
+
+.category-item-label {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Julius Sans One", serif;
+  color: white;
+  font-size: 14px;
+}

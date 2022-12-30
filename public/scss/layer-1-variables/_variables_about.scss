@@ -1,0 +1,125 @@
+@use 'sass:math';
+@import '../layer-0-functions/functions_mediaQueries';
+
+
+
+$profile_name_font_size: (
+	"xs": 25px,
+	"sm": 8px,
+	"md": 8px,
+	"lg": 8px,
+	"xl": 18px,
+	"xxl": 20px
+);
+
+$profile_body_font_size: (
+	"xs": 20px,
+	"sm": 8px,
+	"md": 8px,
+	"lg": 8px,
+	"xl": 16px,
+	"xxl": 20px
+);
+
+$profile_table_title_font_size: (
+	"xs": 30px,
+	"sm": 8px,
+	"md": 8px,
+	"lg": 8px,
+	"xl": 18px,
+	"xxl": 20px
+);
+
+$profile_table_font_size: (
+	"xs": 10px,
+	"sm": 8px,
+	"md": 8px,
+	"lg": 8px,
+	"xl": 14px,
+	"xxl": 20px
+);
+
+//--------------------------------------------------------------------------------
+
+$category_image_size: (
+	"xs": 800px,
+	"sm": 50px,
+	"md": 50px,
+	"lg": 50px,
+	"xl": 175px,
+	"xxl": 250px
+);
+
+$category_title_font_size: (
+	"xs": 80px,
+	"sm": 8px,
+	"md": 8px,
+	"lg": 8px,
+	"xl": 14px,
+	"xxl": 18px
+);
+
+$category_item_label_font_size: (
+	"xs": 65px,
+	"sm": 8px,
+	"md": 8px,
+	"lg": 8px,
+	"xl": 14px,
+	"xxl": 18px
+);
+
+
+$breakpoints: (
+    "xs": 0px,
+    "sm": 1000px,
+    "md": 1280px,
+    "lg": 1536px,
+    "xl": 1920px,
+    "xxl": 2100px,
+);
+
+
+
+
+$page_bg_color: #333232;
+
+$container_bg_color: #00000000;
+$container_border_color: #00000080;
+
+$pro_bg_color: #5f5f5f49;
+$pro_table_font_color: white;
+
+$pro_name_font: "Salsa", serif;
+$pro_name_font_color: white;
+
+$pro_body_font: "MuseoModerno", serif;
+$pro_body_font_color: white;
+
+$pro_table_title_font: "Salsa", serif;
+$pro_table_title_font_color: white;
+
+$pro_table_font: "Julius Sans One", serif;
+$pro_table_font_color: white;
+
+$cat_bg_color: #39A9DB;
+
+$cat_title_font: "Salsa", serif;
+$cat_title_font_color: white;
+
+$cat_item_label_font: "Julius Sans One", serif;
+$cat_item_label_font_color: white;
+
+
+
+
+$pro_name_font_size: map-get($profile_name_font_size, /**/ "xxl" /**/);
+$pro_body_font_size: map-get($profile_body_font_size, /**/ "xxl" /**/);
+
+$pro_table_title_font_size: map-get($profile_table_title_font_size, /**/ "xxl" /**/);
+$pro_table_font_size: map-get($profile_table_font_size, /**/ "xxl" /**/);
+
+$cat_image_width: map-get($category_image_size, /**/ "xxl" /**/);
+$cat_image_height: math.div( map-get($category_image_size, /**/ "xxl" /**/), 1.75 );
+
+$cat_title_font_size: map-get($category_title_font_size, /**/ "xxl" /**/);
+$cat_item_label_font_size: map-get($category_item_label_font_size, /**/ "xxl" /**/);

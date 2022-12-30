@@ -1,0 +1,17 @@
+.nav-socialMedia{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    margin-left: 70%;
+    margin-top: .75em;
+    width: 150px;
+}
+
+.nav-socialMedia-image{
+    margin-top: .25em;
+
+    img{
+        width: $nav_socialMedia_img_width;
+        height: $nav_socialMedia_img_height;
+    }
+}
