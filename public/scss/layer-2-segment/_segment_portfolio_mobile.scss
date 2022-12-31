@@ -1,11 +1,11 @@
 body{
-    background-color: $page-bg-color;
+    background-color: $page_bg_color;
     background-size: cover;
 }
 
 .container{
     margin-top: 2%;
-    border: 3px solid $container-border-color;
+    border: 3px solid $container_border_color;
 }
 
 .album{
@@ -14,7 +14,7 @@ body{
 
     margin-top: 5em;
 
-    background-color: $album-bg-color;
+    background-color: $album_bg_color;
 }
 .album-image{
     margin: 2em;
@@ -31,7 +31,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
 
-    background-color: $project-bg-color;
+    background-color: $project_bg_color;
 }
 .project-image{
     margin: 2em;

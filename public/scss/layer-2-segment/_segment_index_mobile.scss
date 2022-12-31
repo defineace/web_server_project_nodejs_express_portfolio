@@ -1,19 +1,19 @@
 body{
-		background-color: $page-bg-color;
+		background-color: $page_bg_color;
 	}
 
 .container{
 	margin-top: 2%;
 
-	background-color: $container-bg-color;
-	border: 1px solid $container-border-color;
+	background-color: $container_bg_color;
+	border: 1px solid $container_border_color;
 }
 
 .content{
 	display: grid;
 	grid-template-columns: 1fr;
 
-	background-color: $content-bg-color;
+	background-color: $content_bg_color;
 }
 
 .album{
@@ -22,7 +22,7 @@ body{
 
 	margin-top: 50px;
 	text-align: center;
-	background-color: $album-bg-color;
+	background-color: $album_bg_color;
 }
 
 .album-image{
@@ -38,8 +38,8 @@ body{
 }
 
 .album-image:nth-child(3){
-	background-color: $album-img-bg-color;
-	border: 3px solid  $album-img-border-color;
+	background-color: $album_img_bg_color;
+	border: 3px solid  $album_img_border_color;
 
 	img{
 		box-shadow: 0px 5px 25px 1.5px black;
@@ -76,7 +76,7 @@ body{
 
 	img{
 		width: $projects_img_width;
-		height: $projects_img_width;
+		height: $projects_img_height;
 		object-fit: cover;
 	
 		box-shadow: 0px 5px 5px 1.5px black;

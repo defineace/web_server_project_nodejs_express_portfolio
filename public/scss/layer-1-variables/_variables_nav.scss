@@ -1,9 +1,5 @@
-@use 'sass:math';
-@import '../layer-0-functions/functions_mediaQueries';
-
-
 $logo_img: (
-	"xs": 50px,
+	"xs": 150px,
 	"sm": 55px,
 	"md": 60px,
 	"lg": 65px,
@@ -12,7 +8,7 @@ $logo_img: (
 );
 
 $title_font_size: (
-	"xs": 10px,
+	"xs": 50px,
 	"sm": 12px,
 	"md": 14px,
 	"lg": 16px,
@@ -21,7 +17,7 @@ $title_font_size: (
 );
 
 $links_font_size: (
-	"xs": 8px,
+	"xs": 50px,
 	"sm": 10px,
 	"md": 12px,
 	"lg": 14px,
@@ -30,14 +26,13 @@ $links_font_size: (
 );
 
 $socialMedia_img: (
-	"xs": 25px,
+	"xs": 125px,
 	"sm": 30px,
 	"md": 35px,
 	"lg": 40px,
 	"xl": 45px,
 	"xxl": 50px
 );
-
 
 $breakpoints: (
     "xs": 0px,
@@ -59,13 +54,3 @@ $nav-links-font: "Kalam", serif;
 $nav-links-font-color: black;
 
 $nav-links-font-color_hover: #31d3e9;
-
-
-$nav_logo_img_width: map-get($logo_img, /**/ "xxl" /**/);
-$nav_logo_img_height: map-get($logo_img, /**/ "xxl" /**/);
-
-$nav_title_font_size: map_get($title_font_size, /**/ "xxl" /**/);
-$nav_links_font_size: map-get($links_font_size, /**/ "xxl" /**/);
-
-$nav_socialMedia_img_width: map-get($socialMedia_img, /**/ "xxl" /**/);
-$nav_socialMedia_img_height: map-get($socialMedia_img, /**/ "xxl" /**/);

@@ -1,42 +1,37 @@
-@use 'sass:math';
-@import '../layer-0-functions/functions_mediaQueries';
-
-
-
 $profile_name_font_size: (
 	"xs": 25px,
 	"sm": 8px,
-	"md": 8px,
-	"lg": 8px,
+	"md": 14px,
+	"lg": 16px,
 	"xl": 18px,
-	"xxl": 20px
+	"xxl": 24px
 );
 
 $profile_body_font_size: (
 	"xs": 20px,
 	"sm": 8px,
-	"md": 8px,
-	"lg": 8px,
-	"xl": 16px,
-	"xxl": 20px
+	"md": 12px,
+	"lg": 14px,
+	"xl": 14px,
+	"xxl": 16px
 );
 
 $profile_table_title_font_size: (
 	"xs": 30px,
 	"sm": 8px,
-	"md": 8px,
-	"lg": 8px,
+	"md": 14px,
+	"lg": 16px,
 	"xl": 18px,
-	"xxl": 20px
+	"xxl": 24px
 );
 
 $profile_table_font_size: (
 	"xs": 10px,
 	"sm": 8px,
-	"md": 8px,
-	"lg": 8px,
+	"md": 10px,
+	"lg": 12px,
 	"xl": 14px,
-	"xxl": 20px
+	"xxl": 16px
 );
 
 //--------------------------------------------------------------------------------
@@ -44,17 +39,17 @@ $profile_table_font_size: (
 $category_image_size: (
 	"xs": 800px,
 	"sm": 50px,
-	"md": 50px,
-	"lg": 50px,
+	"md": 120px,
+	"lg": 125px,
 	"xl": 175px,
-	"xxl": 250px
+	"xxl": 200px
 );
 
 $category_title_font_size: (
 	"xs": 80px,
 	"sm": 8px,
-	"md": 8px,
-	"lg": 8px,
+	"md": 10px,
+	"lg": 12px,
 	"xl": 14px,
 	"xxl": 18px
 );
@@ -62,12 +57,11 @@ $category_title_font_size: (
 $category_item_label_font_size: (
 	"xs": 65px,
 	"sm": 8px,
-	"md": 8px,
-	"lg": 8px,
+	"md": 10px,
+	"lg": 12px,
 	"xl": 14px,
-	"xxl": 18px
+	"xxl": 16px
 );
-
 
 $breakpoints: (
     "xs": 0px,
@@ -77,9 +71,6 @@ $breakpoints: (
     "xl": 1920px,
     "xxl": 2100px,
 );
-
-
-
 
 $page_bg_color: #333232;
 
@@ -108,18 +99,3 @@ $cat_title_font_color: white;
 
 $cat_item_label_font: "Julius Sans One", serif;
 $cat_item_label_font_color: white;
-
-
-
-
-$pro_name_font_size: map-get($profile_name_font_size, /**/ "xxl" /**/);
-$pro_body_font_size: map-get($profile_body_font_size, /**/ "xxl" /**/);
-
-$pro_table_title_font_size: map-get($profile_table_title_font_size, /**/ "xxl" /**/);
-$pro_table_font_size: map-get($profile_table_font_size, /**/ "xxl" /**/);
-
-$cat_image_width: map-get($category_image_size, /**/ "xxl" /**/);
-$cat_image_height: math.div( map-get($category_image_size, /**/ "xxl" /**/), 1.75 );
-
-$cat_title_font_size: map-get($category_title_font_size, /**/ "xxl" /**/);
-$cat_item_label_font_size: map-get($category_item_label_font_size, /**/ "xxl" /**/);
