@@ -1,0 +1,19 @@
+.album{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    text-align: center;
+    background-color: $album-bg-color;
+}
+
+.album-image{
+    margin: 1em;
+
+    img{
+		width: $album_img_width;
+		height: $album_img_height;
+    
+        object-fit: cover;
+        box-shadow: 1px 5px 20px 2px rgb(27, 27, 27);
+    }
+}

@@ -1,0 +1,105 @@
+@use 'sass:math';
+@import '../layer-1-variables/variables_portfolio';
+
+
+
+@media ( min-width: map-get($breakpoints, "xs") ) and (max-width: map-get($breakpoints, "sm")){
+	$query: "xs";
+
+	$album_img_width: map-get($album_img, $query);
+	$album_img_height: map-get($album_img, $query);
+
+	$projects_img_width: map-get($projects_img, $query);
+	$projects_img_height: math.div( map-get($projects_img, $query), 1.75 );
+
+    // segment index mobile
+    @import '../layer-2-segment/_segment_portfolio_mobile';
+} 
+
+@media ( min-width: map-get($breakpoints, "sm") ) and (max-width: map-get($breakpoints, "md")){
+	$query: "sm";
+	
+	$album_img_width: map-get($album_img, $query);
+	$album_img_height: map-get($album_img, $query);
+
+	$projects_img_width: map-get($projects_img, $query);
+	$projects_img_height: math.div( map-get($projects_img, $query), 1.75 );
+
+    // segment index head
+    @import '../layer-2-segment/_segment_portfolio_head';
+    // segment album
+    @import '../layer-2-segment/_segment_portfolio_album';
+    // segment projects
+    @import '../layer-2-segment/_segment_portfolio_projects';
+} 
+
+@media ( min-width: map-get($breakpoints, "md") ) and (max-width: map-get($breakpoints, "lg")){
+	$query: "md";
+
+	$album_img_width: map-get($album_img, $query);
+	$album_img_height: map-get($album_img, $query);
+
+	$projects_img_width: map-get($projects_img, $query);
+	$projects_img_height: math.div( map-get($projects_img, $query), 1.75 );
+
+    
+    // segment index head
+    @import '../layer-2-segment/_segment_portfolio_head';
+    // segment album
+    @import '../layer-2-segment/_segment_portfolio_album';
+    // segment projects
+    @import '../layer-2-segment/_segment_portfolio_projects';
+} 
+
+@media ( min-width: map-get($breakpoints, "lg") ) and (max-width: map-get($breakpoints, "xl")){
+	$query: "lg";
+
+	$album_img_width: map-get($album_img, $query);
+	$album_img_height: map-get($album_img, $query);
+
+	$projects_img_width: map-get($projects_img, $query);
+	$projects_img_height: math.div( map-get($projects_img, $query), 1.75 );
+
+
+    // segment index head
+    @import '../layer-2-segment/_segment_portfolio_head';
+    // segment album
+    @import '../layer-2-segment/_segment_portfolio_album';
+    // segment projects
+    @import '../layer-2-segment/_segment_portfolio_projects';
+} 
+
+@media ( min-width: map-get($breakpoints, "xl") ) and (max-width: map-get($breakpoints, "xxl")){
+	$query: "xl";  
+
+	$album_img_width: map-get($album_img, $query);
+	$album_img_height: map-get($album_img, $query);
+
+	$projects_img_width: map-get($projects_img, $query);
+	$projects_img_height: math.div( map-get($projects_img, $query), 1.75 );
+
+    
+    // segment index head
+    @import '../layer-2-segment/_segment_portfolio_head';
+    // segment album
+    @import '../layer-2-segment/_segment_portfolio_album';
+    // segment projects
+    @import '../layer-2-segment/_segment_portfolio_projects';
+} 
+
+@media ( min-width: map-get($breakpoints, "xxl") ){
+	$query: "xxl";  
+
+	$album_img_width: map-get($album_img, $query);
+	$album_img_height: map-get($album_img, $query);
+
+	$projects_img_width: map-get($projects_img, $query);
+	$projects_img_height: math.div( map-get($projects_img, $query), 1.75 );
+
+    // segment index head
+    @import '../layer-2-segment/_segment_portfolio_head';
+    // segment album
+    @import '../layer-2-segment/_segment_portfolio_album';
+    // segment projects
+    @import '../layer-2-segment/_segment_portfolio_projects';
+} 

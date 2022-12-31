@@ -1,0 +1,50 @@
+body{
+    background-color: $page_bg_color;
+    background-size: cover;
+}
+
+.container{
+    margin-top: 2%;
+    border: 3px solid $container_border_color;
+}
+
+.album{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    margin-top: 5em;
+
+    background-color: $album_bg_color;
+}
+.album-image{
+    margin: 2em;
+    text-align: center;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+.project{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    background-color: $project_bg_color;
+}
+.project-image{
+    margin: 2em;
+    text-align: center;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    
+        box-shadow: 0px 5px 5px 1.5px black;
+        transition: transform 300ms, box-shadow 300ms;
+    }
+    img:hover{
+        box-shadow: 0px 5px 25px 1px black;
+    }
+}

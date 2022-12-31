@@ -1,0 +1,140 @@
+@use 'sass:math';
+@import '../layer-1-variables/variables_about';
+
+
+
+
+
+@media ( min-width: map-get($breakpoints, "xs") ) and (max-width: map-get($breakpoints, "sm")){
+	$query: "xs";
+
+    $pro_name_font_size: map-get($profile_name_font_size, $query);
+    $pro_body_font_size: map-get($profile_body_font_size, $query);
+    
+    $pro_table_title_font_size: map-get($profile_table_title_font_size, $query);
+    $pro_table_font_size: map-get($profile_table_font_size, $query);
+    
+    $cat_image_width: map-get($category_image_size, $query);
+    $cat_image_height: math.div( map-get($category_image_size, $query), 1.75 );
+    
+    $cat_title_font_size: map-get($category_title_font_size, $query);
+    $cat_item_label_font_size: map-get($category_item_label_font_size, $query);
+
+    // segment portfolio mobile
+    @import '../layer-2-segment/_segment_about_mobile';
+} 
+
+@media ( min-width: map-get($breakpoints, "sm") ) and (max-width: map-get($breakpoints, "md")){
+	$query: "sm";
+	
+    $pro_name_font_size: map-get($profile_name_font_size, $query);
+    $pro_body_font_size: map-get($profile_body_font_size, $query);
+    
+    $pro_table_title_font_size: map-get($profile_table_title_font_size, $query);
+    $pro_table_font_size: map-get($profile_table_font_size, $query);
+    
+    $cat_image_width: map-get($category_image_size, $query);
+    $cat_image_height: math.div( map-get($category_image_size, $query), 1.75 );
+    
+    $cat_title_font_size: map-get($category_title_font_size, $query);
+    $cat_item_label_font_size: map-get($category_item_label_font_size, $query);
+
+    // segment portfolio head
+    @import '../layer-2-segment/_segment_about_head';
+    // segment album
+    @import '../layer-2-segment/_segment_about_profile';
+    // segment slideshow
+    @import '../layer-2-segment/_segment_about_categories';
+} 
+
+@media ( min-width: map-get($breakpoints, "md") ) and (max-width: map-get($breakpoints, "lg")){
+	$query: "md";
+
+    $pro_name_font_size: map-get($profile_name_font_size, $query);
+    $pro_body_font_size: map-get($profile_body_font_size, $query);
+    
+    $pro_table_title_font_size: map-get($profile_table_title_font_size, $query);
+    $pro_table_font_size: map-get($profile_table_font_size, $query);
+    
+    $cat_image_width: map-get($category_image_size, $query);
+    $cat_image_height: math.div( map-get($category_image_size, $query), 1.75 );
+    
+    $cat_title_font_size: map-get($category_title_font_size, $query);
+    $cat_item_label_font_size: map-get($category_item_label_font_size, $query);
+
+    // segment portfolio head
+    @import '../layer-2-segment/_segment_about_head';
+    // segment album
+    @import '../layer-2-segment/_segment_about_profile';
+    // segment slideshow
+    @import '../layer-2-segment/_segment_about_categories';
+} 
+
+@media ( min-width: map-get($breakpoints, "lg") ) and (max-width: map-get($breakpoints, "xl")){
+	$query: "lg";
+
+    $pro_name_font_size: map-get($profile_name_font_size, $query);
+    $pro_body_font_size: map-get($profile_body_font_size, $query);
+    
+    $pro_table_title_font_size: map-get($profile_table_title_font_size, $query);
+    $pro_table_font_size: map-get($profile_table_font_size, $query);
+    
+    $cat_image_width: map-get($category_image_size, $query);
+    $cat_image_height: math.div( map-get($category_image_size, $query), 1.75 );
+    
+    $cat_title_font_size: map-get($category_title_font_size, $query);
+    $cat_item_label_font_size: map-get($category_item_label_font_size, $query);
+
+    // segment portfolio head
+    @import '../layer-2-segment/_segment_about_head';
+    // segment album
+    @import '../layer-2-segment/_segment_about_profile';
+    // segment slideshow
+    @import '../layer-2-segment/_segment_about_categories';
+} 
+
+@media ( min-width: map-get($breakpoints, "xl") ) and (max-width: map-get($breakpoints, "xxl")){
+	$query: "xl";  
+
+    $pro_name_font_size: map-get($profile_name_font_size, $query);
+    $pro_body_font_size: map-get($profile_body_font_size, $query);
+    
+    $pro_table_title_font_size: map-get($profile_table_title_font_size, $query);
+    $pro_table_font_size: map-get($profile_table_font_size, $query);
+    
+    $cat_image_width: map-get($category_image_size, $query);
+    $cat_image_height: math.div( map-get($category_image_size, $query), 1.75 );
+    
+    $cat_title_font_size: map-get($category_title_font_size, $query);
+    $cat_item_label_font_size: map-get($category_item_label_font_size, $query);
+
+    // segment portfolio head
+    @import '../layer-2-segment/_segment_about_head';
+    // segment album
+    @import '../layer-2-segment/_segment_about_profile';
+    // segment slideshow
+    @import '../layer-2-segment/_segment_about_categories';
+} 
+
+@media ( min-width: map-get($breakpoints, "xxl") ){
+	$query: "xxl";  
+
+    $pro_name_font_size: map-get($profile_name_font_size, $query);
+    $pro_body_font_size: map-get($profile_body_font_size, $query);
+    
+    $pro_table_title_font_size: map-get($profile_table_title_font_size, $query);
+    $pro_table_font_size: map-get($profile_table_font_size, $query);
+    
+    $cat_image_width: map-get($category_image_size, $query);
+    $cat_image_height: math.div( map-get($category_image_size, $query), 1.75 );
+    
+    $cat_title_font_size: map-get($category_title_font_size, $query);
+    $cat_item_label_font_size: map-get($category_item_label_font_size, $query);
+
+    // segment portfolio head
+    @import '../layer-2-segment/_segment_about_head';
+    // segment album
+    @import '../layer-2-segment/_segment_about_profile';
+    // segment slideshow
+    @import '../layer-2-segment/_segment_about_categories';
+} 
