@@ -1,45 +1,23 @@
 <html>
-    <%- include("./partials/head.ejs") %>
-    <body>
-        <div class="container">
-            <%- include("./partials/nav.ejs") %>
-            <div class="content">
-                <div class="album" id="album">
-                    <div class="album-image"><img src="../assets/img_index/image - network area logos - 500x500.png"></div>
-                    <div class="album-image"><img src="../assets/img_index/image - web developement logos - 500x500.png"></div>
-                    <div class="album-image"><img src="../assets/img_index/image - biography - 500x500.png"></div>
-                    <div class="album-image"><img src="../assets/img_index/image - software logos - 500x500.png"></div>
-                    <div class="album-image"><img src="../assets/img_index/image - os logos - 500x500.png"></div>
-                </div>
+<%- include("./partials/partial_head.ejs") %>
+<body>
+	<%- include("./partials/partial_navbar.ejs") %>
 
-                <div class="slideshow">
-                    <div class="slideshow-image">
-                        <img id="slideshow" class="slideshow-img" src="../assets/img_index/image - biography - 500x500.png">
-                    </div>
-                </div>
-
-                <div class="project">
-                    <div class="project-page">
-                        <div class="project-image"><img class="project-img" src="../assets/img_portfolio/image - stream overlay future city - 1500x1500.png"></div>
-                    </div>
-                    <div class="project-page">
-                        <div class="project-image"><img class="project-img" src="../assets/img_portfolio/image - stream overlay space club - 1500x1500.png"></div>
-                    </div>
-                    <div class="project-page">
-                        <div class="project-image"><img class="project-img" src="../assets/img_portfolio/image - boeing 747-400 render - 1500x1500.png"></div>
-                    </div>
-                    <div class="project-page">
-                        <div class="project-image"><img class="project-img" src="../assets/img_portfolio/image - vehicle - ww2 us navy landing craft mechanized lcm3 - 1500x1500.png"></div>
-                    </div>
-                    <div class="project-page">
-                        <div class="project-image"><img class="project-img" src="../assets/img_portfolio/image - shipping container render - 1500x1500.pn"></div>
-                    </div>
-                    <div class="project-page">
-                        <div class="project-image"><img class="project-img" src="../assets/img_portfolio/image - ford police car render - 1500x1500.png"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src="../js/index_script.js"></script>
-    </body>
+	<div class="section">
+		<div class="section_title">
+			<h1>Leandro Rico</h1>
+		</div>
+		<div class="section_body">
+			<p>
+				With many years of IT expierence
+				<br>Leading projects at large scale datacenters, meeting pressured deadlines, and working in high security environments.
+				<br>My new career goals is strive for a more creative element.
+			</p>
+		</div>
+	</div>
+	<div  class="section">
+		<div id="section_game" class="section_body"><canvas id="gameboard"></canvas></div>
+		<script src="../js/script-game.js"></script>
+	</div>
+</body>
 </html>

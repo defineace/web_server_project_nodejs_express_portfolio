@@ -1,0 +1,101 @@
+{
+    "linux":[
+        {
+            "Prompt":"exit",
+            "Prompt Description":"terminal: exit",
+            "Prompt Example":"exit",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+
+        {
+            "Prompt":"sudo",
+            "Prompt Description":"Elevate to root access",
+            "Prompt Example":"sudo su",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"apt",
+            "Prompt Description":"Linux packages manager",
+            "Prompt Example":"sudo apt",
+            "Prompt Parameters":[
+                {
+                    "parameter":"install",
+                    "Prompt Description":"Install linux package",
+                    "Prompt Example":"sudo apt install <package>"
+                },
+                {
+                    "parameter":"uninstall",
+                    "Prompt Description":"Uninstall linux package",
+                    "Prompt Example":"sudo apt uninstall <package>"
+                }
+            ],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"ip",
+            "Prompt Description":"Network Configuration",
+            "Prompt Example":"ip addr show",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"ping",
+            "Prompt Description":"Ping targeted ip address",
+            "Prompt Example":"ping google.com",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"traceroute",
+            "Prompt Description":"Trace network route to targeted ip address",
+            "Prompt Example":"traceroute google.com",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            
+            "Prompt":"cd",
+            "Prompt Description":"Change directory",
+            "Prompt Example":"cd",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"ls",
+            "Prompt Description":"List directory contents",
+            "Prompt Example":"ls",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"mkdir",
+            "Prompt Description":"Create directory",
+            "Prompt Example":"mkdir directoryName",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"rmdir",
+            "Prompt Description":"Delete directory",
+            "Prompt Example":"rmdir directoryName",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"echo",
+            "Prompt Description":"Create file or echo input",
+            "Prompt Example":"echo <file_data> > <file_name>",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        },
+        {
+            "Prompt":"rm",
+            "Prompt Description":"Delete file",
+            "Prompt Example":"rm fileName",
+            "Prompt Parameters":[],
+            "Prompt Flags":[]
+        }
+    ]
+}

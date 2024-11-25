@@ -1,0 +1,73 @@
+{
+    "git":[
+        {   
+            "Prompt":"git",
+            "Prompt Description":"Project source file repository",
+            "Prompt Example":"git",
+            "Prompt Parameters":[
+                {
+                    "Parameter": "init",
+                    "Parameter Description": "git: initiate reposistory in local directory",
+                    "Parameter Example":"git init"
+                },
+                {
+                    "Parameter": "checkout",
+                    "Parameter Description": "git: change branch",
+                    "Parameter Example":"git checkout <branch>"
+                },
+                {
+                    "Parameter": "branch",
+                    "Parameter Description": "git: list local branches",
+                    "Parameter Example":"git branch"
+                },
+                {
+                    "Parameter": "stash",
+                    "Parameter Description": "git: stash work in progress git",
+                    "Parameter Example":"git stash"
+                },
+                {
+                    "Parameter": "merge",
+                    "Parameter Description": "git: merge selected branch to current branch",
+                    "Parameter Example":"git merge <git_branch>"
+                },
+                {
+                    "Parameter": "add",
+                    "Parameter Description": "git: add selected files to pre commit",
+                    "Parameter Example":"git add ."
+                },
+                {
+                    "Parameter": "commit",
+                    "Parameter Description": "git: commit to branch from files added to pre commit",
+                    "Parameter Example":"git commit -m"
+                },
+                {
+                    "Parameter": "push",
+                    "Parameter Description": "git: upload to remote repository",
+                    "Parameter Example":"git push <url_repository>"
+                },
+                {
+                    "Parameter": "log",
+                    "Parameter Description": "git: output commit logs",
+                    "Parameter Example":"git log --graph --oneline"
+                }
+            ],
+            "Prompt Flags":[
+                {
+                    "Flag": "-m",
+                    "Flag Description": "Git commit: add message",
+                    "Flag Example":"git commit -m"
+                },
+                {
+                    "Flag": "--graph",
+                    "Flag Description": "Git: output commits with graphic diagrams",
+                    "Flag Example":"git log --graph"
+                },
+                {
+                    "Flag": "--oneline",
+                    "Flag Description": "Git: output commits in one line",
+                    "Flag Example":"git log --oneline"
+                }
+            ]
+        }
+    ]
+}

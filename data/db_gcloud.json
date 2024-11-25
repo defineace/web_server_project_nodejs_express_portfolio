@@ -1,0 +1,53 @@
+{
+    "gcloud":[
+        {
+            "Prompt":"gcloud app deploy",
+            "Prompt Description":"Deploy app to gcloud",
+            "Prompt Example":"gcloud app deploy --version v1 <one instance>",
+            "Prompt Parameters":[],
+            "Prompt Flags":[
+                {
+                    "Flag": "--version",
+                    "Flag Description": "Deplot gcloud app specific version",
+                    "Flag Example":"gcloud app deploy --version <app_version>"
+                }
+            ]
+        },
+        {
+            "Prompt":"gcloud app services",
+            "Prompt Description":"Google cloud app services",
+            "Prompt Example":"gcloud app services list",
+            "Prompt Parameters":[
+                {
+                    "Parameter": "list",
+                    "Parameter Description": "List gcloud app services",
+                    "Parameter Example":"gcloud app services list"
+                },
+                {
+                    "Parameter": "delete",
+                    "Parameter Description": "Delete gcloud app service",
+                    "Parameter Example":"gcloud app services delete"
+                }
+            ],
+            "Prompt Flags":[]
+        },       
+        {
+            "Propmt":"gcloud app versions",
+            "Propmt Description":"Google cloud app engine versions instances",
+            "Propmt Example":"gcloud app versions list",
+            "Prompt Parameters":[
+                {
+                    "Parameter": "list",
+                    "Parameter Description": "List gcloud app versions",
+                    "Parameter Example":"gcloud app versions list"
+                },
+                {
+                    "Parameter": "delete",
+                    "Parameter Description": "Delete gcloud app version",
+                    "Parameter Example":"gcloud app versions delete"
+                }
+            ],
+            "Prompt Flags":[]
+        }
+    ]
+}

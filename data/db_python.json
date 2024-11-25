@@ -1,0 +1,41 @@
+{
+    "python":[
+        {
+            "Prompt":"python",
+            "Prompt Description":"run python script",
+            "Prompt Example":"python",
+            "Prompt Parameters":[
+                {
+                    "Parameter": "notebook",
+                    "Parameter Description": "python: open jupyter notebook",
+                    "Parameter Example":"python -m notebook"
+                }
+            ],
+            "Prompt Flags":[
+                {
+                    "Flag": "-m",
+                    "Flag Description": "python: module-name",
+                    "Flag Example":"python -m notebook"
+                }
+            ]
+        },
+        {
+            "Prompt":"pip",
+            "Prompt Description":"python module manager",
+            "Prompt Example":"pip",
+            "Prompt Parameters":[
+                {
+                    "Parameter": "install",
+                    "Parameter Description": "python: install python package module",
+                    "Parameter Example":"pip install <package>"
+                },
+                {
+                    "Parameter": "uninstall",
+                    "Parameter Description": "python: uninstall python package module",
+                    "Parameter Example":"pip uninstall <package>"
+                }
+            ],
+            "Prompt Flags":[]
+        }
+    ]
+}

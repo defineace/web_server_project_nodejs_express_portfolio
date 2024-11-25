@@ -1,0 +1,37 @@
+{
+    "vim":[
+        {
+            "Prompt":"vim",
+            "Prompt Description":"Command line text editor",
+            "Prompt Example":"vim fileName",
+            "Prompt Parameters":[],
+            "Prompt Flags":[
+                {
+                    "Flag":"--version",
+                    "Flag Description":"Show vim vesion and vim details",
+                    "Flag Example":"vim --version"
+                },
+                {
+                    "Flag":"--help",
+                    "Flag Description":"List vim flags",
+                    "Flag Example":"vim --version"
+                },
+                {
+                    "Flag":"-E",
+                    "Flag Description":"Improved ex mode",
+                    "Flag Example":"vim -E"
+                },
+                {
+                    "Flag":"-y",
+                    "Flag Description":"Easy mode (like evim, modeless)",
+                    "Flag Example":"vim -y"
+                },
+                {
+                    "Flag":"-D",
+                    "Flag Description":"Debugging mode",
+                    "Flag Example":"vim -D"
+                }
+            ]
+        }
+    ]
+}
