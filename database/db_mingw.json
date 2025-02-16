@@ -1,0 +1,40 @@
+{
+    "mingw":[
+        {
+            "prompt":"g++",
+            "prompt_description":"c/c++ compiler",
+            "prompt_example":"g++ <cpp_file>",
+            "prompt_parameters":[],
+            "prompt_flags":[
+                {
+                    "flag": "-I",
+                    "flag_description": "mingw: include src files",
+                    "flag_example":"g++ <cpp_file> -L<header_file> -I<src_files_directory -o<output_executable>"
+                },
+                {
+                    "flag": "-L",
+                    "flag_description": "mingw: include libraries",
+                    "flag_example":"g++ <cpp_file> -L<header_file> -I<src_files_directory -o<output_executable>"
+                },
+                {
+                    "flag": "-o",
+                    "flag_description": "mingw: output to executable file",
+                    "flag_example":"g++ <cpp_file> -L<header_file> -I<src_files_directory -o<output_executable>"
+                }
+            ]
+        },
+        {   
+            "prompt":"mingw-make",
+            "prompt_description":"mingw-make: read compile make file for mingw compiler",
+            "prompt_example":"mingw-make <cpp_file>",
+            "prompt_parameters":[],
+            "prompt_flags":[
+                {
+                    "flag": "--version",
+                    "flag_description": "mingw-make: list version details",
+                    "flag_example":"g++ <cpp_file> -L<header_file> -I<src_files_directory -o<output_executable>"
+                }
+            ]
+        }
+    ]
+}

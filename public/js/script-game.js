@@ -117,40 +117,60 @@ class game_character{
 // Mainloop
 // ######################################################################
 
+// HTML Document Variables
 var page_section = document.getElementById("section_game");
-var page_section_padding = 1000;
+var page_section_padding;
 var canvas = document.getElementById("gameboard");
 var ctx = canvas.getContext("2d");
 
-canvas.width = page_section.offsetWidth-page_section_padding;
+// canvas.width = page_section.offsetWidth-page_section_padding;
+if( page_section.offsetWidth-page_section_padding <= 800 ){
+	canvas.width = 800;
+}else{
+	canvas.width = page_section.offsetWidth-page_section_padding;
+}
+page_section_padding = canvas.width*.10;
 canvas.height = 300;
-
-
 
 // Actions
 var player_xPos_1 = canvas.width/2;
 var player_xPos_2 = 0;
 var player_yPos = 237;
 var player_speed = .02;
-var player_distance = 500;
+var player_distance = canvas.width/2.25;
 var player_action = 0;
 
-var time = 0;
+var game_time = 0;
 
 const gameBackground = new game_background( asset_path, sprite_background_path, 0, 0, canvas.width, canvas.height);
 const player = new game_character( asset_path, sprite_animationSequence_paths, player_xPos_1, player_yPos, 50, 50);
 
 function game_loop(){
-	time += 1;
+	if( page_section.offsetWidth-page_section_padding <= 750 && page_section.offsetWidth-page_section_padding > 700){
+		canvas.width = 600;
+		player_distance = canvas.width/2.25;
+	}
+	else if( page_section.offsetWidth-page_section_padding <= 800 && page_section.offsetWidth-page_section_padding > 750){
+		canvas.width = 800;
+		player_distance = canvas.width/2.25;
+	}else{
+		canvas.width = page_section.offsetWidth-page_section_padding;
+		player_distance = canvas.width/2.25;
+	}
+
+	page_section_padding = canvas.width*.10;
+	gameBackground.sprite_width = canvas.width;
+
+	game_time += 1;
 	// Clear Frame
 	ctx.clearRect( 0, 0, canvas.width, canvas.height);
 
 	// PLayer Movement
 	player_xPos_1 = player_xPos_2;
-	player_xPos_2 = Math.round( (Math.sin(time*player_speed)*player_distance) + (canvas.width/2) );
+	player_xPos_2 = Math.round( (Math.sin(game_time*player_speed)*player_distance) + (canvas.width/2) );
 	
 	// Player Animation
-	if( ( (player_xPos_2 - player_xPos_1) / time ) > 0) {
+	if( ( (player_xPos_2 - player_xPos_1) / game_time ) > 0) {
 		player_action = 0;
 	} else {
 		player_action = 1;

@@ -15,7 +15,7 @@ body {
 
 .section {
     margin: 1em;
-    border: .15em solid var(--color_bg_shade_6);
+    border: .1em solid var(--color_bg_shade_6);
     border-radius: 10px;
     background-color: var(--color_bg_shade_3);
 }

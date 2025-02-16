@@ -1,0 +1,138 @@
+:root {
+    --color_bg_shade_1: rgb(222, 226, 230);
+    --color_bg_shade_2: rgb(173, 181, 189);
+    --color_bg_shade_3: rgb(108, 117, 125);
+    --color_bg_shade_4: rgb(52, 58, 64);
+    --color_bg_shade_5: rgb(33, 37, 41);
+    --color_bg_shade_6: rgb(0, 0, 0);
+
+    --color_bg_prompt: rgb(95, 95, 95);
+}
+
+/*##########################################################*/
+/* Prompt Scroll */
+/*##########################################################*/
+.container_prompt_scroll{
+    margin: 1em;
+    border: .1em solid var(--color_bg_shade_6);
+    border-radius: 10px;
+    background-color: var(--color_bg_shade_3);
+
+    overflow-y: auto;
+
+    text-align: center;
+}
+.prompt_scroll_button{
+    width: 90%;
+    font-size: 30px;
+    margin-top: .75em;
+}
+/*##########################################################*/
+/* Prompt */
+/*##########################################################*/
+.container_prompts{
+    margin: 1em;
+    border: .1em solid var(--color_bg_shade_6);
+    border-radius: 10px;
+    background-color: var(--color_bg_shade_3);
+
+    overflow-y: auto;
+    height: 650px;
+}
+.prompt{
+    margin: 1em;
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+    border: .1em solid var(--color_bg_shade_6);
+    border-radius: 10px;
+    background-color: var(--color_bg_prompt);
+}
+
+.prompt-header{
+    text-align:center;
+    margin-top:0em;
+    border-bottom:.25em solid black;
+    padding: 1em;
+    background-color: azure
+}
+
+.prompt-body {
+    padding: 2em;
+    border: .1em solid var(--color_bg_shade_5) ;
+    border-radius: 2px;
+    background-color: var(--color_bg_shade_1);
+
+    text-align: center;
+}
+.terminal {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(22, 31, 20);
+    background-color: rgba(46, 46, 46, 0.705);
+    text-align: left;
+    color:rgb(0, 177, 0);
+}
+/*##########################################################*/
+/* Prompt Tags */
+/*##########################################################*/
+.container-tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*##########################################################*/
+/* Prompt Parameters */
+/*##########################################################*/
+.container-tag-parameters {
+    margin: 1em;
+    border: .1em solid var(--color_bg_shade_6);
+    border-radius: 10px;
+    background-color: var(--color_bg_shade_3);
+    background-color: rgb(85, 118, 131);
+}
+
+.tag-parameter-header {
+    text-align:center;
+    margin-top:0em;
+    border-bottom:.25em solid black;
+    padding: 1em;
+    background-color: azure;
+}
+
+.tag-parameter-info {
+    margin: 1em;
+    padding: .5em;
+    border: .2em solid var(--color_bg_shade_5) ;
+    border-radius: 2px;
+    background-color: var(--color_bg_shade_1);
+
+    text-align: center;
+}
+/*##########################################################*/
+/* Prompt Flags */
+/*##########################################################*/
+.container-tag-flags {
+    margin: 1em;
+    border: .1em solid var(--color_bg_shade_6);
+    border-radius: 10px;
+    background-color: var(--color_bg_shade_3);
+    background-color: rgb(71, 114, 70);
+}
+
+.tag-flag-header {
+    text-align:center;
+    margin-top:0em;
+    border-bottom:.25em solid black;
+    padding: 1em;
+    background-color: azure;
+}
+
+.tag-flag-info {
+    margin: 1em;
+    padding: .5em;
+    border: .2em solid var(--color_bg_shade_5) ;
+    border-radius: 2px;
+    background-color: var(--color_bg_shade_1);
+
+    text-align: center;
+}
+

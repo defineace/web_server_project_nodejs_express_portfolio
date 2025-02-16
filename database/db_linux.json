@@ -1,0 +1,112 @@
+{
+    "linux":[
+        {
+            "prompt":"exit",
+            "prompt_description":"terminal: exit",
+            "prompt_example":"exit",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+
+        {
+            "prompt":"sudo",
+            "prompt_description":"Elevate to root access",
+            "prompt_example":"sudo su",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"apt",
+            "prompt_description":"Linux packages manager",
+            "prompt_example":"sudo apt",
+            "prompt_parameters":[
+                {
+                    "parameter":"install",
+                    "parameter_description":"Install linux package",
+                    "parameter_example":"sudo apt install <package>"
+                },
+                {
+                    "parameter":"uninstall",
+                    "parameter_description":"Uninstall linux package",
+                    "parameter_example":"sudo apt uninstall <package>"
+                }
+            ],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"ip",
+            "prompt_description":"Network Configuration",
+            "prompt_example":"ip addr show",
+            "prompt_parameters":[
+                {
+                    "parameter":"addr",
+                    "parameter_description":"Configuration for network adapter(s)",
+                    "parameter_example":"ip addr"
+                },
+                {
+                    "parameter":"show",
+                    "parameter_description":"Print Information",
+                    "parameter_example":"ip addr show"
+                }
+            ],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"ping",
+            "prompt_description":"Ping targeted ip address",
+            "prompt_example":"ping google.com",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"traceroute",
+            "prompt_description":"Trace network route to targeted ip address",
+            "prompt_example":"traceroute google.com",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+        {
+            
+            "prompt":"cd",
+            "prompt_description":"Change directory",
+            "prompt_example":"cd",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"ls",
+            "prompt_description":"List directory contents",
+            "prompt_example":"ls",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"mkdir",
+            "prompt_description":"Create directory",
+            "prompt_example":"mkdir directoryName",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"rmdir",
+            "prompt_description":"Delete directory",
+            "prompt_example":"rmdir directoryName",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"echo",
+            "prompt_description":"Create file or echo input",
+            "prompt_example":"echo <file_data> > <file_name>",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        },
+        {
+            "prompt":"rm",
+            "prompt_description":"Delete file",
+            "prompt_example":"rm fileName",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        }
+    ]
+}

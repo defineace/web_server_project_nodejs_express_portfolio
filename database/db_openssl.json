@@ -1,0 +1,53 @@
+{
+    "openssl":[
+        {
+            "prompt":"openssl",
+            "prompt_description":"Cryptography Hashing",
+            "prompt_example":"openssl",
+            "prompt_parameters":[
+                {
+                    "parameter": "genrsa",
+                    "parameter_description": "generate genrsa in aes 256 bit",
+                    "parameter_example":"openssl genrsa -aes256 -out <ca-key-.pem> 4096"
+                },
+                {
+                    "parameter": "req",
+                    "parameter_description": "generate public ca cert",
+                    "parameter_example":"openssl req -new -x509 -sha256 -days <days> -key <ca-key.pem> -out <ca.pem>"
+                }
+            ],
+            "prompt_flags":[
+                {
+                    "flag": "-aes256",
+                    "flag_description": "generate genrsa in aes 256 bit",
+                    "flag_example":"openssl genrsa -aes256 -out <ca-key-.pem> 4096"
+                },
+                {
+                    "flag": "-out",
+                    "flag_description": "output to file",
+                    "flag_example":"openssl genrsa -aes256 -out <ca-key-.pem> 4096"
+                },
+                {
+                    "flag": "-new",
+                    "flag_description": "unknown",
+                    "flag_example":"openssl -new"
+                },
+                {
+                    "flag": "-x509",
+                    "flag_description": "unknown",
+                    "flag_example":"openssl -x509"
+                },
+                {
+                    "flag": "-sha256",
+                    "flag_description": "unknown",
+                    "flag_example":"openssl -sha256"
+                },
+                {
+                    "flag": "-days",
+                    "flag_description": "set certificate renewal length",
+                    "flag_example":"openssl -days 100"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+<html>
+<%- include("./partials/partial_head.ejs") %>
+<body>
+	<%- include("./partials/partial_navbar.ejs") %>
+
+	<div style="display: grid; grid-template-columns: .25fr 1fr;">
+		<div id="prompt_list" class="container_prompt_scroll"></div>
+		<div id="prompts" class="container_prompts" ></div>
+	</div>
+	
+	<script src="../js/script-api-prompts.js"></script>
+</body>
+</html>

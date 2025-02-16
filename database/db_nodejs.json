@@ -1,0 +1,75 @@
+{
+    "nodejs":[
+        {
+            "prompt":"npm",
+            "prompt_description":"package manager for nodejs",
+            "prompt_example":"npm install -g react",
+            "prompt_parameters":[
+                {
+                    "parameter":"init",
+                    "parameter_description":"Initates package.json in local directory",
+                    "parameter_example":"npm init"
+                },
+                {
+                    "parameter":"install",
+                    "parameter_description":"Install node package",
+                    "parameter_example":"npm install"
+                },
+                {
+                    "parameter":"start",
+                    "parameter_description":"Start nodejs app",
+                    "parameter_example":"npm start <server_name>"
+                },
+                {
+                    "parameter":"run",
+                    "parameter_description":"Start react app",
+                    "parameter_example":"npm run start"
+                }
+
+            ],
+            "prompt_flags":[
+                {
+                    "flag":"-g",
+                    "flag_description":"Node package global declaration",
+                    "flag_example":"npm install -g <package>"
+                }
+            ]
+        },
+        {
+            "prompt":"npx",
+            "prompt_description":"Excute nodejs apps",
+            "prompt_example":"",
+            "prompt_parameters":[
+                {
+                    "parameter":"json-server",
+                    "parameter_description":"Start json server",
+                    "parameter_example":"npx json-server --watch <json_file> --port <port_number>"
+                },
+                {
+                    "parameter":"create-react-app",
+                    "parameter_description":"Create react app",
+                    "parameter_example":"npx create-react-app <app_name>"
+                }
+            ],
+            "prompt_flags":[
+                {
+                    "flag": "--watch",
+                    "flag_description": "Watch json-server file",
+                    "flag_example":"npx json-server --watch <json_file> --port <port_number>"
+                },
+                {
+                    "flag": "--port",
+                    "flag_description": "Assign json-server port",
+                    "flag_example":"npx json-server --watch <json_file> --port <port_number>"
+                }
+            ]
+        },
+        {
+            "prompt":"nodemon",
+            "prompt_description":"Start nodemon app",
+            "prompt_example":"nodemon <server_name>",
+            "prompt_parameters":[],
+            "prompt_flags":[]
+        }
+    ]
+}
