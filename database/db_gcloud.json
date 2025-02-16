@@ -32,9 +32,9 @@
             "prompt_flags":[]
         },       
         {
-            "propmt":"gcloud app versions",
-            "propmt_description":"Google cloud app engine versions instances",
-            "propmt_example":"gcloud app versions list",
+            "prompt":"gcloud app versions",
+            "prompt_description":"Google cloud app engine versions instances",
+            "prompt_example":"gcloud app versions list",
             "prompt_parameters":[
                 {
                     "parameter": "list",
