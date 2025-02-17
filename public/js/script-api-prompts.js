@@ -160,7 +160,7 @@ function elements_create_prompts(data) {
 recvData = {};
 
 function main(){
-    const URL = 'http://localhost:80/data';
+    const URL = 'http://leandrorico.com/data';
     const req = new XMLHttpRequest();
 
     // Send API request
