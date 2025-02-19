@@ -21,6 +21,7 @@
     overflow-y: auto;
 
     text-align: center;
+    height: 82vh;
 }
 .prompt_scroll_button{
     width: 90%;
@@ -37,7 +38,7 @@
     background-color: var(--color_bg_shade_3);
 
     overflow-y: auto;
-    height: 650px;
+    height: 82vh;
 }
 .prompt{
     margin: 1em;
