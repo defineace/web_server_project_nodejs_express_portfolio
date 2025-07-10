@@ -4,8 +4,25 @@
 	<%- include("./partials/partial_navbar.ejs") %>
 
 	<div class="section_title">
-		<h1>Leandro Rico</h1>
+		<h1>Leandro Rico<span id="cursor">_</span></h1>
 	</div>
+	<script>
+		var cursor = document.getElementById("cursor");
+		var blink = true;
+
+		var blinking = function(){
+			if(blink){
+				blink = false;
+				cursor.style.visibility = 'visible';
+			}else{
+				blink = true;
+				cursor.style.visibility = 'hidden';
+			}
+		};
+
+		window.setInterval(blinking, 500);
+		
+	</script>
 
 	<div class="section_header">
 		<p>

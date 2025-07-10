@@ -6,6 +6,13 @@
     --color_bg_shade_5: rgb(33, 37, 41);
     --color_bg_shade_6: rgb(0, 0, 0);
 
+    --color_scheme_2_bg_shade_1: #4cc9f0;
+    --color_scheme_2_bg_shade_2: #4361ee;
+    --color_scheme_2_bg_shade_3: #3a0ca3;
+    --color_scheme_2_bg_shade_4: #7109b775;
+    --color_scheme_2_bg_shade_5: #f72585;
+    --color_scheme_2_bg_shade_6: #7eb80051;
+
     --size_1: .25;
     --size_2: .5;
     --size_3: 1;
@@ -18,7 +25,10 @@
 .container_navbar {
     width: 100%;
     border-bottom: 1em solid var(--color_bg_shade_5);
-    background-color: var(--color_bg_shade_3);
+    /*background-color: var(--color_bg_shade_3);*/
+    /*background-image: linear-gradient(to bottom, var(--color_bg_shade_2) 15%, var(--color_bg_shade_3) 100%);*/
+    background-image: linear-gradient(to bottom, var(--color_bg_shade_3) 15%, var(--color_scheme_2_bg_shade_1) 45%, var(--color_bg_shade_3) 95%);
+    
     display: grid;
     grid-template-columns: 125px auto 200px;
     
@@ -49,10 +59,10 @@
     font-size: 40px;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .navbar_navigation_link:hover {
-    color: aquamarine;
+    color: var(--color_scheme_2_bg_shade_5);
 }
 /*###############################################*/
 /* Navbar Socialmedia */
