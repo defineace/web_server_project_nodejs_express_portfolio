@@ -13,25 +13,21 @@
     --color_scheme_2_bg_shade_5: #f72585;
     --color_scheme_2_bg_shade_6: #7eb80051;
 }
-
 /*#####################################################*/
 /* Mobile */
 /*#####################################################*/
-
 @media only screen and (min-width: 200px) {
     body {
         height: 100%;
         margin: 0px;
         background-image: linear-gradient(to bottom, var(--color_scheme_1_bg_shade_4) 15%, var(--color_scheme_2_bg_shade_1) 50%, var(--color_scheme_1_bg_shade_4) 95%);
     }
-
     .section_title {
-        font-size: 50px;
+        font-size: 55px;
         margin-top: 5em;
         text-align: center;
         color: white;
     }
-
     .section_header {
         margin-top: 3em;
         margin-left: 1em;
@@ -39,34 +35,28 @@
         border: .2em solid var(--color_scheme_1_bg_shade_6) ;
         border-radius: 2px;
         background-color: var(--color_scheme_1_bg_shade_1);
-
         text-align: center;
+        font-size: 20px;
     }
-
     .section_body {
-        border-radius: 2px;
         text-align: center;
     }
 }
-
 /*#####################################################*/
 /* Desktop */
 /*#####################################################*/
-
 @media only screen and (min-width: 1000px) {
     body {
         height: 100%;
         margin: 0px;
         background-image: linear-gradient(to bottom, var(--color_scheme_1_bg_shade_4) 15%, var(--color_scheme_2_bg_shade_1) 50%, var(--color_scheme_1_bg_shade_4) 95%);
     }
-
     .section_title {
         font-size: 30px;
         margin-top: 2em;
         text-align: center;
         color: white;
     }
-
     .section_header {
         margin-top: 3em;
         margin-left: 1em;
@@ -74,12 +64,9 @@
         border: .2em solid var(--color_scheme_1_bg_shade_6) ;
         border-radius: 2px;
         background-color: var(--color_scheme_1_bg_shade_1);
-
         text-align: center;
     }
-
     .section_body {
-        border-radius: 2px;
         text-align: center;
     }
 }
