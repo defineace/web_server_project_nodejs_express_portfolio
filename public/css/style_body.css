@@ -14,31 +14,72 @@
     --color_scheme_2_bg_shade_6: #7eb80051;
 }
 
-body {
-    height: 100%;
-    margin: 0px;
-    background-image: linear-gradient(to bottom, var(--color_scheme_1_bg_shade_4) 15%, var(--color_scheme_2_bg_shade_1) 50%, var(--color_scheme_1_bg_shade_4) 95%);
+/*#####################################################*/
+/* Mobile */
+/*#####################################################*/
+
+@media only screen and (min-width: 200px) {
+    body {
+        height: 100%;
+        margin: 0px;
+        background-image: linear-gradient(to bottom, var(--color_scheme_1_bg_shade_4) 15%, var(--color_scheme_2_bg_shade_1) 50%, var(--color_scheme_1_bg_shade_4) 95%);
+    }
+
+    .section_title {
+        font-size: 50px;
+        margin-top: 5em;
+        text-align: center;
+        color: white;
+    }
+
+    .section_header {
+        margin-top: 3em;
+        margin-left: 1em;
+        margin-right: 1em;
+        border: .2em solid var(--color_scheme_1_bg_shade_6) ;
+        border-radius: 2px;
+        background-color: var(--color_scheme_1_bg_shade_1);
+
+        text-align: center;
+    }
+
+    .section_body {
+        border-radius: 2px;
+        text-align: center;
+    }
 }
 
-.section_title {
-    font-size: 30px;
-    margin-top: 2em;
-    text-align: center;
-    color: white;
-}
+/*#####################################################*/
+/* Desktop */
+/*#####################################################*/
 
-.section_header {
-    margin-top: 3em;
-    margin-left: 1em;
-    margin-right: 1em;
-    border: .2em solid var(--color_scheme_1_bg_shade_6) ;
-    border-radius: 2px;
-    background-color: var(--color_scheme_1_bg_shade_1);
+@media only screen and (min-width: 1000px) {
+    body {
+        height: 100%;
+        margin: 0px;
+        background-image: linear-gradient(to bottom, var(--color_scheme_1_bg_shade_4) 15%, var(--color_scheme_2_bg_shade_1) 50%, var(--color_scheme_1_bg_shade_4) 95%);
+    }
 
-    text-align: center;
-}
+    .section_title {
+        font-size: 30px;
+        margin-top: 2em;
+        text-align: center;
+        color: white;
+    }
 
-.section_body {
-    border-radius: 2px;
-    text-align: center;
+    .section_header {
+        margin-top: 3em;
+        margin-left: 1em;
+        margin-right: 1em;
+        border: .2em solid var(--color_scheme_1_bg_shade_6) ;
+        border-radius: 2px;
+        background-color: var(--color_scheme_1_bg_shade_1);
+
+        text-align: center;
+    }
+
+    .section_body {
+        border-radius: 2px;
+        text-align: center;
+    }
 }
